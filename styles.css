@@ -9,3 +9,8 @@ h1 {
 tr {
     width: 100%;
 }
+
+.algo-table {
+    width: 95%;
+    border: 2px solid black;
+}
