@@ -15,7 +15,27 @@ export default class ProblemInfo {
     }
 
     completedOnTime() {
-        if (recommendedTime > this.timeToComplete) return true;
-        return false;
+        if (recommendedTime > this.timeToComplete) {
+            return true
+        } else {
+            return false;
+        }
     }
 }
+
+/* Template for Creating Obj
+const prob = new ProblemInfo;
+prob.name = '';
+prob.website = '';
+prob.link = '';
+prob.date = '';
+prob.difficulty = '';
+prob.recommendedTime = 25;
+prob.timeToComplete = 1;
+prob.complete = false;
+prob.problem = '';
+prob.examples = '';
+prob.notes = '';
+prob.usedHelp = false;
+*/
+
