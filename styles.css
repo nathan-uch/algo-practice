@@ -14,3 +14,14 @@ tr {
     width: 95%;
     border: 2px solid black;
 }
+
+.stats-table {
+    width: 30%;
+    border: 2px solid black;
+}
+
+#easy-total,
+#intermediate-total,
+#hard-total {
+    width: calc(100%/3);
+}

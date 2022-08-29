@@ -1,5 +1,5 @@
-import { BoxBlurInfo}  from '../src/box_blur.js';
+import { BoxBlurInfo }  from '../src/box_blur.js';
 
-export const AllAlgos = {
+export const AllAlgos = [
     BoxBlurInfo
-}
+]

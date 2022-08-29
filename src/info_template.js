@@ -9,8 +9,6 @@ export default class ProblemInfo {
         this.timeToComplete = timeToComplete;
         this.complete = complete;
         this.problem = problem;
-        this.examples = examples;
-        this.notes = notes;
         this.usedHelp = usedHelp;
     }
 

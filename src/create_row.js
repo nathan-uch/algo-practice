@@ -35,13 +35,9 @@ export default function CreateRow(info) {
             $td.appendChild($icon);
         } else if (id === 'problem') {
             $td.textContent = info.problem;
-        } else if (id === 'examples') {
-            $td.textContent = info.examples;
         } else if (id === 'usedHelp') {
             if (!info.usedHelp || info.usedHelp === undefined) $td.textContent = 'No';
             if (info.usedHelp) $td.textContent = 'Yes';
-        } else if (id === 'notes') {
-            $td.textContent = info.notes;
         }
         $row.appendChild($td)
     }
