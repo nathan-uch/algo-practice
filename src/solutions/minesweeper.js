@@ -38,8 +38,15 @@ Loop through each array in matrix
 
 Loop again through matrix arrays
     check if current value is true
-        if true, add to each surrounding element positions
-
+        if value is true
+            if not bottom row                               add one to value at bottom
+            if not bottom row and last element of row       add one to value at bottom right
+            if not last element of row and not last row     add one to value at bottom left
+            if not first element of row                     add one to value at left
+            if not last element of row                      add one to value at right
+            if not last row                                 add one to value at top
+            if not first row and not first element of row   add one to value at top left
+            if not first row and not last element of row    add one to value at top right
 */
 
 function solution(matrix) {
