@@ -7,9 +7,9 @@ Minesweeper.link = 'https://app.codesignal.com/arcade/intro/level-5/ZMR5n7vJbexn
 Minesweeper.date = 'Aug 30, 2022';
 Minesweeper.difficulty = 'Medium';
 Minesweeper.recommendedTime = 30 ;
-Minesweeper.timeToComplete = 0;
-Minesweeper.complete = false;
-Minesweeper.problem = '';
+Minesweeper.timeToComplete = 60;
+Minesweeper.complete = true;
+Minesweeper.problem = 'Create minesweeper board with numbers according to true/false matrix';
 
 /* Problem & Example:
 
