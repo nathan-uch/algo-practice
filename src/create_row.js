@@ -41,6 +41,5 @@ export default function CreateRow(info) {
         }
         $row.appendChild($td)
     }
-    if (info.complete) $tableBody.classList.add('table-success');
     $tableBody.appendChild($row);
 }

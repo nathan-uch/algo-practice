@@ -15,6 +15,10 @@ tr {
     border: 2px solid black;
 }
 
+thead {
+    border: 2px solid black;
+}
+
 .stats-table {
     width: 30%;
     border: 2px solid black;
