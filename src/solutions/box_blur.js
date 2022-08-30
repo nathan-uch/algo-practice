@@ -1,4 +1,4 @@
-import ProblemInfo from './info_template.js';
+import ProblemInfo from '../info_template.js';
 
 export const BoxBlurInfo = new ProblemInfo;
 BoxBlurInfo.name = 'Box Blur';

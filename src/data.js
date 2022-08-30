@@ -1,5 +1,7 @@
-import { BoxBlurInfo }  from '../src/box_blur.js';
+import { BoxBlurInfo }  from '../src/solutions/box_blur.js';
+import { Minesweeper } from './solutions/minesweeper.js';
 
 export const AllAlgos = [
-    BoxBlurInfo
+    BoxBlurInfo,
+    Minesweeper
 ]
