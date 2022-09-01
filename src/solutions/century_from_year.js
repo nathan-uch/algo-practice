@@ -7,7 +7,7 @@ CenturyFromYear.link = 'https://app.codesignal.com/arcade/intro/level-1/egbueTZR
 CenturyFromYear.date = 'Aug 30, 2022';
 CenturyFromYear.difficulty = 'Easy';
 CenturyFromYear.recommendedTime = 15;
-CenturyFromYear.timeToComplete = 0;
+CenturyFromYear.timeToComplete = 12;
 CenturyFromYear.complete = true;
 CenturyFromYear.problem = 'Convert year to century';
 
