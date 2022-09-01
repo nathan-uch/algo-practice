@@ -1,6 +1,6 @@
 import { BoxBlurInfo }  from '../src/solutions/box_blur.js';
 import { Minesweeper } from './solutions/minesweeper.js';
-import { CenturyFromYear } from './solutions/century_from_year';
+import { CenturyFromYear } from './solutions/century_from_year.js';
 
 export const AllAlgos = [
     BoxBlurInfo,

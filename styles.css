@@ -25,7 +25,7 @@ thead {
 }
 
 #easy-total,
-#intermediate-total,
+#medium-total,
 #hard-total {
     width: calc(100%/3);
 }
