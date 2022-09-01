@@ -70,7 +70,7 @@ $ matches the end of the input
 \w matches any letter, number or underscore
 */
 
-function solution(n) {
+function regexSolution(n) {
     const regex = /^[a-z_]\w*$/
     if (!n.match(regex)) return false;
     return true
