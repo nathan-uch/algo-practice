@@ -58,3 +58,20 @@ function solution(n) {
     }
     return true;
 }
+
+/* 
+Learned Regex:
+^ matches the beginning of the input
+[A-Za-z] or [^a-z] for alphabet
+[0-9] for numbers
+[_] for underscore
++ matches 1 or more repetitions of the preceding symbol
+$ matches the end of the input
+\w matches any letter, number or underscore
+*/
+
+function solution(n) {
+    const regex = /^[a-z_]\w*$/
+    if (!n.match(regex)) return false;
+    return true
+}
