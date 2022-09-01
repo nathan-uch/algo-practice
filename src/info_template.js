@@ -13,7 +13,7 @@ export default class ProblemInfo {
     }
 
     completedOnTime() {
-        if (this.recommendedTime > this.timeToComplete) {
+        if (this.recommendedTime >= this.timeToComplete) {
             return true;
         } else {
             return false;
