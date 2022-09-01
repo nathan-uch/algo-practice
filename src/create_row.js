@@ -16,7 +16,7 @@ export default function CreateRow(info) {
         } else if (id === 'difficulty') {
             $td.textContent = info.difficulty;
             if (info.difficulty.toLowerCase() === 'easy') $td.setAttribute('class', 'text-success');
-            if (info.difficulty.toLowerCase() === 'intermediate') $td.setAttribute('class', 'text-warning');
+            if (info.difficulty.toLowerCase() === 'medium') $td.setAttribute('class', 'text-warning');
             if (info.difficulty.toLowerCase() === 'hard') $td.setAttribute('hard', 'text-danger');
         } else if (id === 'date') {
             $td.textContent = info.date;

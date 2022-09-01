@@ -9,7 +9,7 @@ import { AllAlgos } from "./src/data.js";
         CreateRow(AllAlgos[k]);
         if (AllAlgos[k].difficulty.toLowerCase() === 'easy' && AllAlgos[k].complete === true) {
             e++;
-        } else if (AllAlgos[k].difficulty.toLowerCase() === 'intermediate' && AllAlgos[k].complete === true) {
+        } else if (AllAlgos[k].difficulty.toLowerCase() === 'medium' && AllAlgos[k].complete === true) {
             i++;
         } else if (AllAlgos[k].difficulty.toLowerCase() === 'hard' && AllAlgos[k].complete === true) {
             h++;
@@ -18,7 +18,7 @@ import { AllAlgos } from "./src/data.js";
 
     const $easyTotal = document.getElementById('easy-total');
     $easyTotal.textContent = e;
-    const $intermediateTotal = document.getElementById('intermediate-total');
+    const $intermediateTotal = document.getElementById('medium-total');
     $intermediateTotal.textContent = i;
     const $hardTotal = document.getElementById('hard-total');
     $hardTotal.textContent = h;
