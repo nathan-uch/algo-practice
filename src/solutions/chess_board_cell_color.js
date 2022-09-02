@@ -1,15 +1,15 @@
 import ProblemInfo from '../info_template.js';
 
-export const chessBoardCellColor = new ProblemInfo;
-chessBoardCellColor.name = 'Chess Board Cell Color';
-chessBoardCellColor.website = 'Code Signal';
-chessBoardCellColor.link = 'https://app.codesignal.com/arcade/intro/level-6/t97bpjfrMDZH8GJhi';
-chessBoardCellColor.date = 'Sep 2, 2022';
-chessBoardCellColor.difficulty = 'Easy';
-chessBoardCellColor.recommendedTime = 10;
-chessBoardCellColor.timeToComplete = 7;
-chessBoardCellColor.complete = true;
-chessBoardCellColor.problem = 'Check if two cell colors on chess board are the same';
+export const ChessBoardCellColor = new ProblemInfo;
+ChessBoardCellColor.name = 'Chess Board Cell Color';
+ChessBoardCellColor.website = 'Code Signal';
+ChessBoardCellColor.link = 'https://app.codesignal.com/arcade/intro/level-6/t97bpjfrMDZH8GJhi';
+ChessBoardCellColor.date = 'Sep 2, 2022';
+ChessBoardCellColor.difficulty = 'Easy';
+ChessBoardCellColor.recommendedTime = 10;
+ChessBoardCellColor.timeToComplete = 7;
+ChessBoardCellColor.complete = true;
+ChessBoardCellColor.problem = 'Check if two cell colors on chess board are the same';
 
 /* Problem & Example:
 Given two cells on the standard chess board, determine whether they have the same color or not.
@@ -25,7 +25,13 @@ true
 create array with letters a to h
 
 get index of letter + 1
+check if the sum of both indexes are even or odd,
+    if even it's dark
+    if odd it's light
 
+check if both are equal
+return true if yes
+return false if not
 
 */
 
