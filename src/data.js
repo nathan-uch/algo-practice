@@ -5,6 +5,7 @@ import { ArrayReplace } from './solutions/array_replace.js';
 import { EvenDigitsOnly } from './solutions/even_digits_only.js';
 import { VariableName } from './solutions/variable_name.js';
 import { AlphabeticShift } from './solutions/alphabetic_shift.js';
+import { ChessBoardCellColor } from './solutions/chess_board_cell_color.js';
 
 export const AllAlgos = [
     BoxBlurInfo,
@@ -13,5 +14,6 @@ export const AllAlgos = [
     ArrayReplace,
     EvenDigitsOnly,
     VariableName,
-    AlphabeticShift
+    AlphabeticShift,
+    ChessBoardCellColor
 ]
