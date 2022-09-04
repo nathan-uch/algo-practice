@@ -8,6 +8,7 @@ import { AlphabeticShift } from './solutions/alphabetic_shift.js';
 import { ChessBoardCellColor } from './solutions/chess_board_cell_color.js';
 import { CircleOfNumbers } from './solutions/circle_of_numbers.js';
 import { DepositProfit } from './solutions/deposit_profit.js';
+import { AbsoluteValuesSumMinimization } from './solutions/absolute_values_sum_minimization.js';
 
 
 export const AllAlgos = [
@@ -20,5 +21,6 @@ export const AllAlgos = [
     AlphabeticShift,
     ChessBoardCellColor,
     CircleOfNumbers,
-    DepositProfit
+    DepositProfit,
+    AbsoluteValuesSumMinimization
 ]
