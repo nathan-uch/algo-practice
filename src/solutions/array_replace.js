@@ -10,23 +10,22 @@ ArrayReplace.recommendedTime = 10;
 ArrayReplace.timeToComplete = 3;
 ArrayReplace.complete = true;
 ArrayReplace.problem = 'Substitute elements in an array.';
+ArrayReplace.topics = null;
+ArrayReplace.pseudoCode = `
+1. create empty array for result
+2. loop over input array
+    3. check if element equals to replace element
+        4. if yes, push the sub element
+        5. else push element to result
+6. return result
+`;
 
 /* Problem & Example:
 Given an array of integers, replace all the occurrences of elemToReplace with substitutionElem.
 
 Example:
 [1, 2, 1]
-
-Equals:
-[3, 2, 3]
--------------------------- Pseudo Code ------------------------
-
-create empty array for result
-loop over input array
-    check if element equals to replace element
-        if yes, push the sub element
-        else push element to result
-return result
+result = [3, 2, 3]
 
 */
 

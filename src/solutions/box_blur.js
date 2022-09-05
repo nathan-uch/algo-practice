@@ -10,6 +10,24 @@ BoxBlurInfo.recommendedTime = 25;
 BoxBlurInfo.timeToComplete = 40;
 BoxBlurInfo.complete = true;
 BoxBlurInfo.problem = 'Blur pixels and remove surrounding values';
+BoxBlurInfo.topics = null;
+BoxBlurInfo.pseudoCode = `
+note: end image will be number of rows & cols -2, for example if image is 7x7 (49) result will be 5x5 (25)
+1. declare array for result
+2. declare variable y = rows
+3. declare variable x = cols
+4. get y from image (image.length) -2
+5. get x from image (image[0].length) - 2
+6. loop y times, create array for each
+    7. for each row values will equal to 
+        8. slice row i (0,3)
+        9. slice row i+1 (0,3)
+        10. slice  row i+2 (0, 3)
+            11. flat and reduce for total, divide by 9
+            12. insert to y row
+    13. increment row
+14. return array
+`;
 
 /* Problem & Example:
 Algo should distort the image in the following way:
@@ -20,40 +38,12 @@ Image:
 [[1, 1, 1],
  [1, 7, 1],
  [1, 1, 1]]
-Equals:
-[[1]]
+result = [[1]];
 
 Steps:
 Get pixel total: 1+1+1+1+7+1+1+1+1 = 15
 Get pixel average: 15/9 = 1.666 = 1
 Remove surrounding pixels = [[1]]
-
--------------------------- Pseudo Code ------------------------
-
-For 3x3 --
-flat whole array, (might be easier and simpler for getting average, might use this for larger images too)
-reduce adding each value (loop through remaining array adding each value)
-divide by 9 and round down and insert result into an array
-return result
-
-for larger than 1 pixel --
-note: end image will be number of rows & cols -2, for example if image is 7x7 (49) result will be 5x5 (25)
-
-y = rows
-x = cols
-
-create result empty array
-get y from image (image.length) -2
-get x from image (image[0].length) - 2
-loop y times, create array for each
-    for each row values will equal to 
-        -slice row i (0,3)
-        -slice row i+1 (0,3)
-        -slice  row i+2 (0, 3)
-            -flat and reduce for total, divide by 9
-            -insert to y row
-    increment row
-return array
 
 */
 

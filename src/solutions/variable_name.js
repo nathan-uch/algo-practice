@@ -10,6 +10,20 @@ VariableName.recommendedTime = 10;
 VariableName.timeToComplete = 10;
 VariableName.complete = true;
 VariableName.problem = 'Check if the given string is a correct variable name.';
+VariableName.topics = null;
+VariableName.pseudoCode = `
+1. create alphabet string
+2. create duplicate alpghabet string upper cased
+3. check if first element is number (isNaN)
+    4. if yes, return false
+5. loop through string
+    6. check if is number by converting to number and using isNaN(), continue
+    7. check if equals to _, continue
+    8. check if lower case alphabet contains ele, continue
+    9. check if cap case alphabet contains ele, continue
+    10. if iteration ended, return false
+11. if loop ends, return true
+`;
 
 /* Problem & Example:
 Correct variable names consist only of English letters, digits and underscores and they can't start with a digit.
@@ -24,23 +38,6 @@ Equals:
 name1 = true
 name2 = false
 name3 = false
-
--------------------------- Pseudo Code ------------------------
-create alphabet string
-create duplicate alpghabet string upper cased
-
-check if first element is number (isNaN)
-    if yes, return false
-
-loop through string
-    check if is number by converting to number and using isNaN(), continue
-    check if equals to _, continue
-    check if lower case alphabet contains ele, continue
-    check if cap case alphabet contains ele, continue
-    if iteration ended, return false
-
-if loop ends, return true
-return true
 
 */
 

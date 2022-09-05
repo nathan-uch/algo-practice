@@ -38,6 +38,8 @@ export default function CreateRow(info) {
         } else if (id === 'usedHelp') {
             if (!info.usedHelp || info.usedHelp === undefined) $td.textContent = 'No';
             if (info.usedHelp) $td.textContent = 'Yes';
+        } else if (id === 'topics') {
+            if (info.topics) $td.textContent = info.topics;
         }
         $row.appendChild($td)
     }

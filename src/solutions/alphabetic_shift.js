@@ -10,24 +10,23 @@ AlphabeticShift.recommendedTime = 10;
 AlphabeticShift.timeToComplete = 7;
 AlphabeticShift.complete = true;
 AlphabeticShift.problem = 'Replace each letter of a string with the next letter in alphabet.';
+AlphabeticShift.topics = null;
+AlphabeticShift.pseudoCode = `
+1. create an array with all letters in the alphabet in order
+2. create empty string variable
+3. loop through the input string and 
+    4. find the index from the array (index of)
+    5. check if index is last letter of alphabet, if yes, return give index -1
+    6. add next letter to empty string at index + 1
+7. return string
+`;
 
 /* Problem & Example:
 Given a string, your task is to replace each of its characters by the next one in the English alphabet; i.e. replace a with b, replace b with c, etc (z would be replaced by a).
 
 Example:
-crazy
-
-Equals:
-dsbaz
-
--------------------------- Pseudo Code ------------------------
-create an array with all letters in the alphabet in order
-create empty string variable
-loop through the input string and 
-    find the index from the array (index of)
-    check if index is last letter of alphabet, if yes, return give index -1
-    add next letter to empty string at index + 1
-return string
+'crazy'
+result = 'dsbaz'
 
 */
 

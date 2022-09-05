@@ -10,6 +10,13 @@ EvenDigitsOnly.recommendedTime = 5;
 EvenDigitsOnly.timeToComplete = 2;
 EvenDigitsOnly.complete = true;
 EvenDigitsOnly.problem = 'Check if all digits of the given integer are even.';
+EvenDigitsOnly.topics = null;
+EvenDigitsOnly.pseudoCode = `
+1. convert to string
+2. loop over each element individually and check if there is remainder from modulous 2
+    3. if yes, return false
+4. if no, return true
+`;
 
 /* Problem & Example:
 
@@ -20,14 +27,6 @@ n2 = 642386
 Equals:
 n1 = true
 n2 = false
-
--------------------------- Pseudo Code ------------------------
-
-convert to string
-loop over each element individually and check if there is remainder from modulous 2
-    if yes, return false
-    if no, return true
-
 */
 
 function solution(n) {
