@@ -9,7 +9,7 @@ import { ChessBoardCellColor } from './solutions/chess_board_cell_color.js';
 import { CircleOfNumbers } from './solutions/circle_of_numbers.js';
 import { DepositProfit } from './solutions/deposit_profit.js';
 import { AbsoluteValuesSumMinimization } from './solutions/absolute_values_sum_minimization.js';
-
+import { ContainsDuplicate } from './solutions/contains_duplicate.js';
 
 export const AllAlgos = [
     BoxBlurInfo,
@@ -22,5 +22,6 @@ export const AllAlgos = [
     ChessBoardCellColor,
     CircleOfNumbers,
     DepositProfit,
-    AbsoluteValuesSumMinimization
+    AbsoluteValuesSumMinimization,
+    ContainsDuplicate
 ]

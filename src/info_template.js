@@ -1,5 +1,5 @@
 export default class ProblemInfo {
-    constructor(name, website, link, date, difficulty, recommendedTime, timeToComplete, complete, problem, examples, notes, usedHelp) {
+    constructor(name, website, link, date, difficulty, recommendedTime, timeToComplete, complete, problem, usedHelp, types, pseudoCode) {
         this.name = name;
         this.website = website;
         this.link = link;
@@ -10,6 +10,8 @@ export default class ProblemInfo {
         this.complete = complete;
         this.problem = problem;
         this.usedHelp = usedHelp;
+        this.topics = topics;
+        this.pseudoCode = pseudoCode;
     }
 
     completedOnTime() {

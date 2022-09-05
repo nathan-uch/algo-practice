@@ -10,6 +10,18 @@ ChessBoardCellColor.recommendedTime = 10;
 ChessBoardCellColor.timeToComplete = 7;
 ChessBoardCellColor.complete = true;
 ChessBoardCellColor.problem = 'Check if two cell colors on chess board are the same';
+ChessBoardCellColor.topics = null;
+ChessBoardCellColor.pseudoCode = `
+1. create array with letters a to h
+2. get index of letter + 1
+3. check if the sum of both indexes are even or odd,
+    4. if even it's dark
+    5. if odd it's light
+
+5. check if both are equal
+6. return true if yes
+7. return false if not
+`;
 
 /* Problem & Example:
 Given two cells on the standard chess board, determine whether they have the same color or not.
@@ -17,21 +29,7 @@ Given two cells on the standard chess board, determine whether they have the sam
 Example:
 cell1 = A1
 cell2 = C3
-
-Equals:
-true
-
--------------------------- Pseudo Code ------------------------
-create array with letters a to h
-
-get index of letter + 1
-check if the sum of both indexes are even or odd,
-    if even it's dark
-    if odd it's light
-
-check if both are equal
-return true if yes
-return false if not
+result = true
 
 */
 

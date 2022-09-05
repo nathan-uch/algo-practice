@@ -10,6 +10,13 @@ CenturyFromYear.recommendedTime = 15;
 CenturyFromYear.timeToComplete = 12;
 CenturyFromYear.complete = true;
 CenturyFromYear.problem = 'Convert year to century';
+CenturyFromYear.topics = null;
+CenturyFromYear.pseudoCode = `
+1. divide year by 100 and round down to get century
+2. check if year divided by 100 is less than century
+    3. if yes, return the century
+    4. if not, return century + 1
+`;
 
 /* Problem & Example:
 Convert year to century. The first century spans from the year 1 up to  the year 100, etc.
@@ -19,12 +26,6 @@ year 1905
 
 Equals:
 20
-
--------------------------- Pseudo Code ------------------------
-divide year by 100 and round down to get century
-check if year divided by 100 is less than century
-    if yes, return the century
-    if not, return century + 1
 
 */
 

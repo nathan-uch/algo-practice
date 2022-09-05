@@ -10,6 +10,23 @@ Minesweeper.recommendedTime = 30 ;
 Minesweeper.timeToComplete = 60;
 Minesweeper.complete = true;
 Minesweeper.problem = 'Create minesweeper board with numbers according to true/false matrix';
+Minesweeper.topics = null;
+Minesweeper.pseudoCode = `
+1. Loop through each array in matrix
+    2. create an array with 0s according to matrix length (cols and rows)
+
+3. Loop again through matrix arrays
+    4. check if current value is true
+        5. if value is true
+            6. if not bottom row                               add one to value at bottom
+            7. if not bottom row and last element of row       add one to value at bottom right
+            8. if not last element of row and not last row     add one to value at bottom left
+            9. if not first element of row                     add one to value at left
+            10. if not last element of row                      add one to value at right
+            11. if not last row                                 add one to value at top
+            12. if not first row and not first element of row   add one to value at top left
+            13. if not first row and not last element of row    add one to value at top right
+`;
 
 /* Problem & Example:
 
@@ -30,23 +47,6 @@ Equals:
 Steps:
 the 'true' are flags (meaning they are mines)
 the surrounding boxes should display how many mines they are touching
-
--------------------------- Pseudo Code ------------------------
-
-Loop through each array in matrix
-    create an array with 0s according to matrix length (cols and rows)
-
-Loop again through matrix arrays
-    check if current value is true
-        if value is true
-            if not bottom row                               add one to value at bottom
-            if not bottom row and last element of row       add one to value at bottom right
-            if not last element of row and not last row     add one to value at bottom left
-            if not first element of row                     add one to value at left
-            if not last element of row                      add one to value at right
-            if not last row                                 add one to value at top
-            if not first row and not first element of row   add one to value at top left
-            if not first row and not last element of row    add one to value at top right
 */
 
 function solution(matrix) {
