@@ -22,5 +22,7 @@ import { AllAlgos } from "./src/data.js";
     $intermediateTotal.textContent = i;
     const $hardTotal = document.getElementById('hard-total');
     $hardTotal.textContent = h;
+    const $questionTotal = document.getElementById('total-questions');
+    $questionTotal.textContent = Number(e) + Number(i) + Number(h);
 } ())
 

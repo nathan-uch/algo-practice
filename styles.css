@@ -23,9 +23,3 @@ thead {
     width: 30%;
     border: 2px solid black;
 }
-
-#easy-total,
-#medium-total,
-#hard-total {
-    width: calc(100%/3);
-}
