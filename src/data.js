@@ -11,6 +11,7 @@ import { DepositProfit } from './solutions/deposit_profit.js';
 import { AbsoluteValuesSumMinimization } from './solutions/absolute_values_sum_minimization.js';
 import { ContainsDuplicate } from './solutions/contains_duplicate.js';
 import { StringsRearrangement } from './solutions/strings_rearrangement.js';
+import { IsAnagram } from './solutions/is_anagram.js';
 
 export const AllAlgos = [
     BoxBlurInfo,
@@ -25,5 +26,6 @@ export const AllAlgos = [
     DepositProfit,
     AbsoluteValuesSumMinimization,
     ContainsDuplicate,
-    StringsRearrangement
+    StringsRearrangement,
+    IsAnagram
 ]
