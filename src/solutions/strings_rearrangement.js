@@ -7,10 +7,11 @@ StringsRearrangement.link = 'https://app.codesignal.com/arcade/intro/level-7/PTW
 StringsRearrangement.date = 'Sep 5, 2022';
 StringsRearrangement.difficulty = 'Medium';
 StringsRearrangement.recommendedTime = 25;
-StringsRearrangement.timeToComplete = 90;
+StringsRearrangement.timeToComplete = 0;
 StringsRearrangement.complete = false;
 StringsRearrangement.problem = 'Check if 2 consecutive strings can be different by only 1 char in an array.';
 StringsRearrangement.topics = 'Permutation & Recursion';
+StringsRearrangement.usedHelp = true;
 StringsRearrangement.pseudoCode = `
 Function: checking consecutive strings difference
 1. sort both strings,
@@ -58,39 +59,30 @@ function solution(inputArray) {
     let result = false;
 
     const checkArray = a => {
-        const alpha = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
-        const sorted = [];
         for (let i = 0; i < a.length; i++) {
-            sorted.push(a[i].split('').sort().join(''));
+            a[i].split('').sort().join('');
         }
-    
-        for (let c = 0; c < sorted.length; c++) {
+        for (let k = 0; k < a.length; k++) {
             let count = 0;
-            if (sorted[c+1] !== undefined) {
-                for (let k = 0; k < sorted[c].length; k++) {
-                    // CHANGE CHECKING INCREMENTING ALPHABETICAL ORDER
-                    if (sorted[c][k] !== sorted[c+1][k]) {
-                        const index = alpha.indexOf(sorted[c][k])
-                        const lett = sorted[c+1][k]
-                        if (lett !== alpha[index-1] || alpha[index+1]) return false;
-                        count++
-                    }
+            if (a[k+1] === undefined) break;
+            if (a[k] !== a[k+1]) {
+                for (let p = 0; p < a[k].length; p++) {
+                    if (a[k][p] !== a[k+1][p]) { count++; }
                 }
             }
-            if (count > 1) return false;
+            if (count === 1) return true;
         }
-        return true;
+        return false;
     }
 
     const depthFirstSearch = (i, nums) => {
         //base case
         if (i === inputArray.length) {
             result = checkArray(nums.slice());
-            if(result === true) return true;
-            return;
+            if (result === true) return true;
         } 
-
         // dfs recursive case
+        // starting i at 0, loop over input array
         for (let j = i; j < inputArray.length; j++) {
             [nums[i], nums[j]] = [nums[j], nums[i]] //swap positions
             depthFirstSearch(i + 1, nums);
@@ -98,7 +90,13 @@ function solution(inputArray) {
         }
     }
 
-    depthFirstSearch(0, inputArray);
-    return result;
+    return depthFirstSearch(0, inputArray);
 }
 
+const answer =
+solution(["q", "q"]);
+// false
+solution(["ab", "ad", "ef", "eg"]);
+// false
+solution(["abc", "abx", "axx", "abc"]);
+// false
