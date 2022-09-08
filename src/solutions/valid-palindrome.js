@@ -10,7 +10,7 @@ ValidPalindrome.recommendedTime = 10;
 ValidPalindrome.timeToComplete = 10;
 ValidPalindrome.complete = true;
 ValidPalindrome.problem = 'Check if string is palindrome.';
-ValidPalindrome.topics = '';
+ValidPalindrome.topics = 'Two Pointers';
 ValidPalindrome.usedHelp = false;
 ValidPalindrome.pseudoCode = `
 1. loop over string 
@@ -55,3 +55,5 @@ var isPalindrome = function(s) {
     if (reversed === result) return true;
     return false
 };
+
+// using left pointer and right pointer (without creating string)
