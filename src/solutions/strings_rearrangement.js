@@ -59,6 +59,7 @@ function solution(inputArray) {
     let result = false;
 
     const checkArray = a => {
+        let check = false;
         for (let i = 0; i < a.length; i++) {
             a[i].split('').sort().join('');
         }
@@ -67,12 +68,18 @@ function solution(inputArray) {
             if (a[k+1] === undefined) break;
             if (a[k] !== a[k+1]) {
                 for (let p = 0; p < a[k].length; p++) {
+                    console.log(a[k][p], a[k+1][p])
                     if (a[k][p] !== a[k+1][p]) { count++; }
                 }
             }
-            if (count === 1) return true;
+            if (count === 1) {
+                check = true;
+            } else {
+                check = false;
+                break;
+            }
         }
-        return false;
+        return check;
     }
 
     const depthFirstSearch = (i, nums) => {
@@ -88,15 +95,39 @@ function solution(inputArray) {
             depthFirstSearch(i + 1, nums);
             [nums[i], nums[j]] = [nums[j], nums[i]] //swap back
         }
+        return result;
     }
 
     return depthFirstSearch(0, inputArray);
 }
 
-const answer =
-solution(["q", "q"]);
-// false
-solution(["ab", "ad", "ef", "eg"]);
-// false
-solution(["abc", "abx", "axx", "abc"]);
-// false
+// solution:
+/*
+function solution(a) {
+  for (let i = 0; i < a.length; i++) {
+    let remaining = findNext(a[i], a);
+    if (remaining.length === 0) return true;
+  }
+  return false;
+}
+
+function findNext(current, a) {
+  if (a.length === 0) return a;
+  for (let i = 0; i < a.length; i++) {
+    if (differsByOneChar(current, a[i])) {
+      let remaining = findNext(a[i], a.slice(0, i).concat(a.slice(i+1)));
+      if (remaining.length === 0) return remaining;
+    }
+  }
+  return a;
+}
+
+function differsByOneChar(s1, s2) {
+  let mismatches = 0;
+  for (let i = 0; i < s1.length; i++) {
+    if (s1[i] !== s2[i]) mismatches++;
+    if (mismatches > 1) break;
+  }
+  return mismatches === 1;
+}
+*/
