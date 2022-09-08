@@ -12,6 +12,7 @@ import { AbsoluteValuesSumMinimization } from './solutions/absolute_values_sum_m
 import { ContainsDuplicate } from './solutions/contains_duplicate.js';
 import { StringsRearrangement } from './solutions/strings_rearrangement.js';
 import { IsAnagram } from './solutions/is_anagram.js';
+import { ValidPalindrome } from './solutions/valid_palindrome.js';
 
 export const AllAlgos = [
     BoxBlurInfo,
@@ -27,5 +28,6 @@ export const AllAlgos = [
     AbsoluteValuesSumMinimization,
     ContainsDuplicate,
     StringsRearrangement,
-    IsAnagram
+    IsAnagram,
+    ValidPalindrome
 ]
