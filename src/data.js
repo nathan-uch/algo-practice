@@ -14,6 +14,7 @@ import { StringsRearrangement } from './solutions/strings_rearrangement.js';
 import { IsAnagram } from './solutions/is_anagram.js';
 import { ValidPalindrome } from './solutions/valid_palindrome.js';
 import { BestTimeToBuySellStock } from './solutions/buy_sell_stock.js';
+import { ExtractEachKth } from './solutions/extract_each_kth.js';
 
 
 export const AllAlgos = [
@@ -32,5 +33,6 @@ export const AllAlgos = [
     StringsRearrangement,
     IsAnagram,
     ValidPalindrome,
-    BestTimeToBuySellStock
+    BestTimeToBuySellStock,
+    ExtractEachKth
 ]
