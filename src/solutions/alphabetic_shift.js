@@ -35,7 +35,6 @@ function solution(inputString) {
     let result = '';
     for (let i = 0; i < inputString.length; i++) {
         let index = alpha.indexOf(inputString[i]);
-        console.log(index);
         if (index === 25) index = -1;
         result += alpha[index+1];
     }
