@@ -7,13 +7,13 @@ FirstDigit.link = 'h';
 FirstDigit.date = 'Sep 10, 2022';
 FirstDigit.difficulty = 'Easy';
 FirstDigit.recommendedTime = 10;
-FirstDigit.timeToComplete = 3;
+FirstDigit.timeToComplete = 7;
 FirstDigit.complete = true;
 FirstDigit.problem = 'First leftmost digit from a string';
 FirstDigit.topics = '';
 FirstDigit.usedHelp = false;
 FirstDigit.pseudoCode = `
-1. Loop through string starting from length
+1. Loop through string
 2. check if is a digit
 3. return digit
 `;
@@ -32,9 +32,14 @@ solution(inputString) = '0'.
 */
 
 function solution(s) {
-    const last = s.length - 1;
-    for (let i = last; i < 0; i--) {
-        console.log(s[i])
-        if (!isNaN(s[i])) return s[i];
+    let result = null;
+    for (let i = 0; i < s.length; i++) {
+        if (s[i] === ' ') {
+            continue
+        } else if (!isNaN(s[i])) {
+            result = s[i]
+            break
+        }
     }
+    return result;
 }
