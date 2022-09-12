@@ -15,6 +15,7 @@ import { IsAnagram } from './solutions/is_anagram.js';
 import { ValidPalindrome } from './solutions/valid_palindrome.js';
 import { BestTimeToBuySellStock } from './solutions/buy_sell_stock.js';
 import { ExtractEachKth } from './solutions/extract_each_kth.js';
+import { DifferentSymbolsNaive } from './solutions/different_symbols_naive.js';
 
 
 export const AllAlgos = [
@@ -34,5 +35,6 @@ export const AllAlgos = [
     IsAnagram,
     ValidPalindrome,
     BestTimeToBuySellStock,
-    ExtractEachKth
+    ExtractEachKth,
+    DifferentSymbolsNaive
 ]
