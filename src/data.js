@@ -16,6 +16,7 @@ import { ValidPalindrome } from './solutions/valid_palindrome.js';
 import { BestTimeToBuySellStock } from './solutions/buy_sell_stock.js';
 import { ExtractEachKth } from './solutions/extract_each_kth.js';
 import { DifferentSymbolsNaive } from './solutions/different_symbols_naive.js';
+import { ArrayMaxConsecutiveSum } from './solutions/array_max_consec_sum.js';
 
 
 export const AllAlgos = [
@@ -36,5 +37,6 @@ export const AllAlgos = [
     ValidPalindrome,
     BestTimeToBuySellStock,
     ExtractEachKth,
-    DifferentSymbolsNaive
+    DifferentSymbolsNaive,
+    ArrayMaxConsecutiveSum
 ]
