@@ -19,6 +19,7 @@ import { DifferentSymbolsNaive } from './solutions/different_symbols_naive.js';
 import { ArrayMaxConsecutiveSum } from './solutions/array_max_consec_sum.js';
 import { GrowingPlant } from './solutions/growing_plant.js';
 import { KnapsackLight } from './solutions/knapsack_light.js';
+import { ValidParenthesis } from './solutions/valid_parenthesis.js';
 
 
 export const AllAlgos = [
@@ -42,5 +43,6 @@ export const AllAlgos = [
     DifferentSymbolsNaive,
     ArrayMaxConsecutiveSum,
     GrowingPlant,
-    KnapsackLight
+    KnapsackLight,
+    ValidParenthesis
 ]
