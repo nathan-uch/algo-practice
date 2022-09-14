@@ -18,6 +18,7 @@ import { ExtractEachKth } from './solutions/extract_each_kth.js';
 import { DifferentSymbolsNaive } from './solutions/different_symbols_naive.js';
 import { ArrayMaxConsecutiveSum } from './solutions/array_max_consec_sum.js';
 import { GrowingPlant } from './solutions/growing_plant.js';
+import { KnapsackLight } from './solutions/knapsack_light.js';
 
 
 export const AllAlgos = [
@@ -40,5 +41,6 @@ export const AllAlgos = [
     ExtractEachKth,
     DifferentSymbolsNaive,
     ArrayMaxConsecutiveSum,
-    GrowingPlant
+    GrowingPlant,
+    KnapsackLight
 ]
