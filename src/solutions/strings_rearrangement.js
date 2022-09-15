@@ -10,22 +10,10 @@ StringsRearrangement.recommendedTime = 25;
 StringsRearrangement.timeToComplete = 90;
 StringsRearrangement.complete = false;
 StringsRearrangement.problem = 'Check if 2 consecutive strings can be different by only 1 char in an array.';
-StringsRearrangement.topics = 'Permutation & Recursion';
+StringsRearrangement.topics = 'Permutation (DFS) & Recursion';
 StringsRearrangement.usedHelp = true;
 StringsRearrangement.pseudoCode = `
-Function: checking consecutive strings difference
-1. sort both strings,
-2. create a count variable for difference
-3. loop through string and check if they are not equal at each index
-    4. if not equal, increase count by 1
-    5. check if count is not greater than 1
-        6. if greater than one, return false
-7. if loop ends, return true
-
-Function: permutations of array (solution)
-1. get the length of array
-2. 
-
+1. 
 `;
 
 /* Problem & Example:
