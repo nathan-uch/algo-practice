@@ -10,7 +10,7 @@ ValidParenthesis.recommendedTime = 15;
 ValidParenthesis.timeToComplete = 15;
 ValidParenthesis.complete = true;
 ValidParenthesis.problem = 'Check for valid parenthesis (opens and closes).';
-ValidParenthesis.topics = 'Stacks';
+ValidParenthesis.topics = '!Stacks';
 ValidParenthesis.pseudoCode = `
 1. create an array for stack
 2. create open array each type of paren
@@ -62,7 +62,7 @@ function solution(s) {
             } else {
                 return false;
             }
-        } 
+        }
     }
     if (stack.length > 0) return false;
     if (stack.length === 0) return true;
