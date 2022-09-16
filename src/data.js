@@ -22,6 +22,7 @@ import { KnapsackLight } from './solutions/knapsack_light.js';
 import { ValidParenthesis } from './solutions/valid_parenthesis.js';
 import { LongestDigitsPrefix } from './solutions/longest_digits_prefix.js';
 import { BinarySearch } from './solutions/binary_search.js';
+import { DigitDegree } from './solutions/digit_degree.js';
 
 
 export const AllAlgos = [
@@ -48,5 +49,6 @@ export const AllAlgos = [
     KnapsackLight,
     ValidParenthesis,
     LongestDigitsPrefix,
-    BinarySearch
+    BinarySearch,
+    DigitDegree
 ]
