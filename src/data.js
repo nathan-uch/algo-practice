@@ -23,6 +23,7 @@ import { ValidParenthesis } from './solutions/valid_parenthesis.js';
 import { LongestDigitsPrefix } from './solutions/longest_digits_prefix.js';
 import { BinarySearch } from './solutions/binary_search.js';
 import { DigitDegree } from './solutions/digit_degree.js';
+import { ReverseLinkedList } from './solutions/reverse_linked_list.js';
 
 
 export const AllAlgos = [
@@ -50,5 +51,6 @@ export const AllAlgos = [
     ValidParenthesis,
     LongestDigitsPrefix,
     BinarySearch,
-    DigitDegree
+    DigitDegree,
+    ReverseLinkedList
 ]
