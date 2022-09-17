@@ -24,6 +24,7 @@ import { LongestDigitsPrefix } from './solutions/longest_digits_prefix.js';
 import { BinarySearch } from './solutions/binary_search.js';
 import { DigitDegree } from './solutions/digit_degree.js';
 import { ReverseLinkedList } from './solutions/reverse_linked_list.js';
+import { BishopAndPawn } from './solutions/bishop_and_pawn.js';
 
 
 export const AllAlgos = [
@@ -52,5 +53,6 @@ export const AllAlgos = [
     LongestDigitsPrefix,
     BinarySearch,
     DigitDegree,
-    ReverseLinkedList
+    ReverseLinkedList,
+    BishopAndPawn
 ]
