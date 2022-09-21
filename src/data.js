@@ -25,6 +25,7 @@ import { BinarySearch } from './solutions/binary_search.js';
 import { DigitDegree } from './solutions/digit_degree.js';
 import { ReverseLinkedList } from './solutions/reverse_linked_list.js';
 import { BishopAndPawn } from './solutions/bishop_and_pawn.js';
+import { InvertBinaryTree } from './solutions/invert_binary_tree.js';
 
 
 export const AllAlgos = [
@@ -54,5 +55,6 @@ export const AllAlgos = [
     BinarySearch,
     DigitDegree,
     ReverseLinkedList,
-    BishopAndPawn
+    BishopAndPawn,
+    InvertBinaryTree
 ]
