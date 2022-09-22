@@ -1,4 +1,4 @@
-import ProblemInfo from '../info_template.js';
+import ProblemInfo from '../info-template.js';
 
 export const ChessBoardCellColor = new ProblemInfo;
 ChessBoardCellColor.name = 'Chess Board Cell Color';
@@ -35,7 +35,7 @@ result = true
 
 function solution(c1, c2) {
    const alpha = ['A','B','C','D','E','F','G','H'];
-   
+
    const one = [(alpha.indexOf(c1[0]) + 1), c1[1]];
    const two = [(alpha.indexOf(c2[0]) + 1), c2[1]];
    let result1 = null;
@@ -56,4 +56,3 @@ function solution(c1, c2) {
     if (result1 === result2) return true;
     return false;
 }
- 

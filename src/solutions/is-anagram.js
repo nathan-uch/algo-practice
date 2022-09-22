@@ -1,4 +1,4 @@
-import ProblemInfo from '../info_template.js';
+import ProblemInfo from '../info-template.js';
 
 export const IsAnagram = new ProblemInfo;
 IsAnagram.name = 'Is Anagram';
@@ -13,7 +13,7 @@ IsAnagram.problem = 'Check if two strings are anagram of each other.';
 IsAnagram.topics = '';
 IsAnagram.usedHelp = false;
 IsAnagram.pseudoCode = `
-1. Convert both strings to array 
+1. Convert both strings to array
 2. sort both arrays
 3. revert to string
 4. check if both strings are equal

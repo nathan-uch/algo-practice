@@ -1,4 +1,4 @@
-import ProblemInfo from '../info_template.js';
+import ProblemInfo from '../info-template.js';
 
 export const ArrayMaxConsecutiveSum = new ProblemInfo;
 ArrayMaxConsecutiveSum.name = 'Array Max Consecutive Sum';

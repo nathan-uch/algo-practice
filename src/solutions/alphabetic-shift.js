@@ -1,4 +1,4 @@
-import ProblemInfo from '../info_template.js';
+import ProblemInfo from '../info-template.js';
 
 export const AlphabeticShift = new ProblemInfo;
 AlphabeticShift.name = 'Alphabetic Shift';
@@ -14,7 +14,7 @@ AlphabeticShift.topics = null;
 AlphabeticShift.pseudoCode = `
 1. create an array with all letters in the alphabet in order
 2. create empty string variable
-3. loop through the input string and 
+3. loop through the input string and
     4. find the index from the array (index of)
     5. check if index is last letter of alphabet, if yes, return give index -1
     6. add next letter to empty string at index + 1
@@ -40,4 +40,3 @@ function solution(inputString) {
     }
     return result;
 }
- 

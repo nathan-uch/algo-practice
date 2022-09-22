@@ -1,4 +1,4 @@
-import ProblemInfo from '../info_template.js';
+import ProblemInfo from '../info-template.js';
 
 export const ValidParenthesis = new ProblemInfo;
 ValidParenthesis.name = 'Valid Parenthesis';

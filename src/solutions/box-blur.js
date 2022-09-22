@@ -1,4 +1,4 @@
-import ProblemInfo from '../info_template.js';
+import ProblemInfo from '../info-template.js';
 
 export const BoxBlurInfo = new ProblemInfo;
 BoxBlurInfo.name = 'Box Blur';
@@ -19,7 +19,7 @@ note: end image will be number of rows & cols -2, for example if image is 7x7 (4
 4. get y from image (image.length) -2
 5. get x from image (image[0].length) - 2
 6. loop y times, create array for each
-    7. for each row values will equal to 
+    7. for each row values will equal to
         8. slice row i (0,3)
         9. slice row i+1 (0,3)
         10. slice  row i+2 (0, 3)

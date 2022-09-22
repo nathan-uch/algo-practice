@@ -1,4 +1,4 @@
-import ProblemInfo from '../info_template.js';
+import ProblemInfo from '../info-template.js';
 
 export const ValidPalindrome = new ProblemInfo;
 ValidPalindrome.name = 'Valid Palindrome';
@@ -13,7 +13,7 @@ ValidPalindrome.problem = 'Check if string is palindrome.';
 ValidPalindrome.topics = 'Two Pointers';
 ValidPalindrome.usedHelp = false;
 ValidPalindrome.pseudoCode = `
-1. loop over string 
+1. loop over string
 2.      at each letter, lower case it
 3.      check if it is a letter or number
 4.          if yes, add it to array

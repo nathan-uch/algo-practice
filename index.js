@@ -1,4 +1,4 @@
-import CreateRow from "./src/create_row.js";
+import CreateRow from "./src/create-row.js";
 import { AllAlgos } from "./src/data.js";
 
 (function PopulateTables() {
@@ -43,4 +43,3 @@ import { AllAlgos } from "./src/data.js";
     const $totalNotCompleted = document.getElementById('total-not-completed');
     $totalNotCompleted.textContent = Number(enot) + Number(mnot) + Number(hnot);
 } ())
-

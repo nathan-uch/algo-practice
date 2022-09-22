@@ -1,4 +1,4 @@
-import ProblemInfo from '../info_template.js';
+import ProblemInfo from '../info-template.js';
 
 export const ArrayReplace = new ProblemInfo;
 ArrayReplace.name = 'Array Replace';
@@ -40,4 +40,3 @@ function solution(inputArray, elemToReplace, substitutionElem) {
     }
     return result;
 }
- 
