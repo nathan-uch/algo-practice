@@ -1,4 +1,4 @@
-import ProblemInfo from '../info_template.js';
+import ProblemInfo from '../info-template.js';
 
 export const InvertBinaryTree = new ProblemInfo;
 InvertBinaryTree.name = 'Reverse Linked List';

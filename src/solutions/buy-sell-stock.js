@@ -1,4 +1,4 @@
-import ProblemInfo from '../info_template.js';
+import ProblemInfo from '../info-template.js';
 
 export const BestTimeToBuySellStock = new ProblemInfo;
 BestTimeToBuySellStock.name = 'Best Time to Buy and Sell Stock';
@@ -44,7 +44,7 @@ function solution(prices) {
     let maxP = 0;
     let l = 0;
     let r = 1;
-    
+
     while (r < prices.length) {
         if (prices[l] < prices[r]) {
             let profit = prices[r] - prices[l]

@@ -1,4 +1,4 @@
-import ProblemInfo from '../info_template.js';
+import ProblemInfo from '../info-template.js';
 
 export const DifferentSymbolsNaive = new ProblemInfo;
 DifferentSymbolsNaive.name = 'Different Symbols Naive';
@@ -42,4 +42,3 @@ function solution(s) {
     }
     return count;
 }
- 

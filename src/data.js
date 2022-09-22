@@ -1,32 +1,32 @@
-import { BoxBlurInfo }  from '../src/solutions/box_blur.js';
+import { BoxBlurInfo }  from '../src/solutions/box-blur.js';
 import { Minesweeper } from './solutions/minesweeper.js';
-import { CenturyFromYear } from './solutions/century_from_year.js';
-import { ArrayReplace } from './solutions/array_replace.js';
-import { EvenDigitsOnly } from './solutions/even_digits_only.js';
-import { VariableName } from './solutions/variable_name.js';
-import { AlphabeticShift } from './solutions/alphabetic_shift.js';
-import { ChessBoardCellColor } from './solutions/chess_board_cell_color.js';
-import { CircleOfNumbers } from './solutions/circle_of_numbers.js';
-import { DepositProfit } from './solutions/deposit_profit.js';
-import { AbsoluteValuesSumMinimization } from './solutions/absolute_values_sum_minimization.js';
-import { ContainsDuplicate } from './solutions/contains_duplicate.js';
-import { StringsRearrangement } from './solutions/strings_rearrangement.js';
-import { IsAnagram } from './solutions/is_anagram.js';
-import { ValidPalindrome } from './solutions/valid_palindrome.js';
-import { BestTimeToBuySellStock } from './solutions/buy_sell_stock.js';
-import { ExtractEachKth } from './solutions/extract_each_kth.js';
-import { DifferentSymbolsNaive } from './solutions/different_symbols_naive.js';
-import { ArrayMaxConsecutiveSum } from './solutions/array_max_consec_sum.js';
-import { GrowingPlant } from './solutions/growing_plant.js';
-import { KnapsackLight } from './solutions/knapsack_light.js';
-import { ValidParenthesis } from './solutions/valid_parenthesis.js';
-import { LongestDigitsPrefix } from './solutions/longest_digits_prefix.js';
-import { BinarySearch } from './solutions/binary_search.js';
-import { DigitDegree } from './solutions/digit_degree.js';
-import { ReverseLinkedList } from './solutions/reverse_linked_list.js';
-import { BishopAndPawn } from './solutions/bishop_and_pawn.js';
-import { InvertBinaryTree } from './solutions/invert_binary_tree.js';
-
+import { CenturyFromYear } from './solutions/century-from-year.js';
+import { ArrayReplace } from './solutions/array-replace.js';
+import { EvenDigitsOnly } from './solutions/even-digits-only.js';
+import { VariableName } from './solutions/variable-name.js';
+import { AlphabeticShift } from './solutions/alphabetic-shift.js';
+import { ChessBoardCellColor } from './solutions/chess-board-cell-color.js';
+import { CircleOfNumbers } from './solutions/circle-of-numbers.js';
+import { DepositProfit } from './solutions/deposit-profit.js';
+import { AbsoluteValuesSumMinimization } from './solutions/absolute-values-sum-minimization.js';
+import { ContainsDuplicate } from './solutions/contains-duplicate.js';
+import { StringsRearrangement } from './solutions/strings-rearrangement.js';
+import { IsAnagram } from './solutions/is-anagram.js';
+import { ValidPalindrome } from './solutions/valid-palindrome.js';
+import { BestTimeToBuySellStock } from './solutions/buy-sell-stock.js';
+import { ExtractEachKth } from './solutions/extract-each-kth.js';
+import { DifferentSymbolsNaive } from './solutions/different-symbols-naive.js';
+import { ArrayMaxConsecutiveSum } from './solutions/array-max-consec-sum.js';
+import { GrowingPlant } from './solutions/growing-plant.js';
+import { KnapsackLight } from './solutions/knapsack-light.js';
+import { ValidParenthesis } from './solutions/valid-parenthesis.js';
+import { LongestDigitsPrefix } from './solutions/longest-digits-prefix.js';
+import { BinarySearch } from './solutions/binary-search.js';
+import { DigitDegree } from './solutions/digit-degree.js';
+import { ReverseLinkedList } from './solutions/reverse-linked-list.js';
+import { BishopAndPawn } from './solutions/bishop-and-pawn.js';
+import { InvertBinaryTree } from './solutions/invert-binary-tree.js';
+import { IsBeautifulString } from './solutions/is-beautiful-string.js';
 
 export const AllAlgos = [
     BoxBlurInfo,
@@ -56,5 +56,6 @@ export const AllAlgos = [
     DigitDegree,
     ReverseLinkedList,
     BishopAndPawn,
-    InvertBinaryTree
+    InvertBinaryTree,
+    IsBeautifulString
 ]

@@ -1,4 +1,4 @@
-import ProblemInfo from '../info_template.js';
+import ProblemInfo from '../info-template.js';
 
 export const VariableName = new ProblemInfo;
 VariableName.name = 'Variable Name';
@@ -56,7 +56,7 @@ function solution(n) {
     return true;
 }
 
-/* 
+/*
 Learned Regex:
 ^ matches the beginning of the input
 [A-Za-z] or [^a-z] for alphabet

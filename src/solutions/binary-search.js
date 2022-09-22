@@ -1,4 +1,4 @@
-import ProblemInfo from '../info_template.js';
+import ProblemInfo from '../info-template.js';
 
 export const BinarySearch = new ProblemInfo;
 BinarySearch.name = 'Binary Search';
@@ -27,7 +27,7 @@ BinarySearch.pseudoCode = `
 `;
 
 /* Problem & Example:
-Given an array of integers nums which is sorted in ascending order, and an integer target, write a function to search target in nums. 
+Given an array of integers nums which is sorted in ascending order, and an integer target, write a function to search target in nums.
 If target exists, then return its index. Otherwise, return -1.
 You must write an algorithm with O(log n) runtime complexity.
 
@@ -50,14 +50,14 @@ function solution(nums, target) {
     let result = -1;
     let left = 0;
     let right = nums.length -1;
-    
+
     while(left <= right) {
         let half = Math.floor((left + right)/2);
         if (nums[half] === target) {
             return result = half;
         } else {
             if (nums[half] > target) {
-                right = half - 1;                
+                right = half - 1;
             } else {
                 left = half + 1;
             }

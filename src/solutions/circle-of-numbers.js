@@ -1,4 +1,4 @@
-import ProblemInfo from '../info_template.js';
+import ProblemInfo from '../info-template.js';
 
 export const CircleOfNumbers = new ProblemInfo;
 CircleOfNumbers.name = 'Circle of Numbers';
@@ -34,4 +34,3 @@ function solution(n, firstNumber) {
    }
    return Math.floor(result);
 }
- 

@@ -1,4 +1,4 @@
-import ProblemInfo from '../info_template.js';
+import ProblemInfo from '../info-template.js';
 
 export const StringsRearrangement = new ProblemInfo;
 StringsRearrangement.name = 'Strings Rearrangement';
@@ -13,11 +13,11 @@ StringsRearrangement.problem = 'Check if 2 consecutive strings can be different 
 StringsRearrangement.topics = 'Permutation (DFS) & Recursion';
 StringsRearrangement.usedHelp = true;
 StringsRearrangement.pseudoCode = `
-1. 
+1.
 `;
 
 /* Problem & Example:
-Given an array of equal-length strings, you'd like to know if it's possible to rearrange the order of the elements in such a way that each consecutive pair of strings differ by exactly one character. 
+Given an array of equal-length strings, you'd like to know if it's possible to rearrange the order of the elements in such a way that each consecutive pair of strings differ by exactly one character.
 Return true if it's possible, and false if not.
 Note: You're only rearranging the order of the strings, not the order of the letters within the strings!
 
@@ -38,7 +38,7 @@ Example2:
 For inputArray = ["ab", "bb", "aa"], the output should be
 solution(inputArray) = true.
 
-It's possible to arrange these strings in a way that each consecutive pair of strings differ by 1 character 
+It's possible to arrange these strings in a way that each consecutive pair of strings differ by 1 character
 (eg: "aa", "ab", "bb" or "bb", "ab", "aa"), so return true.
 
 */
@@ -75,7 +75,7 @@ function solution(inputArray) {
         if (i === inputArray.length) {
             result = checkArray(nums.slice());
             if (result === true) return true;
-        } 
+        }
         // dfs recursive case
         // starting i at 0, loop over input array
         for (let j = i; j < inputArray.length; j++) {

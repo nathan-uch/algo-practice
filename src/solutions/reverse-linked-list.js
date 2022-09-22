@@ -1,4 +1,4 @@
-import ProblemInfo from '../info_template.js';
+import ProblemInfo from '../info-template.js';
 
 export const ReverseLinkedList = new ProblemInfo;
 ReverseLinkedList.name = 'Reverse Linked List';

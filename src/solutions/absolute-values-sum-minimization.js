@@ -1,4 +1,4 @@
-import ProblemInfo from '../info_template.js';
+import ProblemInfo from '../info-template.js';
 
 export const AbsoluteValuesSumMinimization = new ProblemInfo;
 AbsoluteValuesSumMinimization.name = 'Absolute Values Sum Minimization';
@@ -19,19 +19,19 @@ AbsoluteValuesSumMinimization.pseudoCode = `
 4. loop through array
     5. declare new variable as current abs value
     6. loop through array and get abs value by adding it to value at each iteration
-    
+
     7. if this is the first num, save the abs value to variable (prev value) for comparison
     8. if current abs value equals last abs value
         9. compare the original array values and save smaller value as result
     10. else, compare current abs value to last abs value,
-        11. if current abs value is less than last abs value, 
+        11. if current abs value is less than last abs value,
             12. current abs value equals last abs value
             13. result equals to original value in array
 14. return result
 `;
 
 /* Problem & Example:
-Given a sorted array of integers a, your task is to determine which element of a is closest to all other values of a. 
+Given a sorted array of integers a, your task is to determine which element of a is closest to all other values of a.
 In other words, find the element x in a, which minimizes the following sum:
 abs(a[0] - x) + abs(a[1] - x) + ... + abs(a[a.length - 1] - x)
 (where abs denotes the absolute value)

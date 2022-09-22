@@ -1,4 +1,4 @@
-import ProblemInfo from '../info_template.js';
+import ProblemInfo from '../info-template.js';
 
 export const DepositProfit = new ProblemInfo;
 DepositProfit.name = 'Deposit Profit';
@@ -47,4 +47,3 @@ function solution(deposit, rate, threshold) {
    }
    return count;
 }
- 
