@@ -27,6 +27,7 @@ import { ReverseLinkedList } from './solutions/reverse-linked-list.js';
 import { BishopAndPawn } from './solutions/bishop-and-pawn.js';
 import { InvertBinaryTree } from './solutions/invert-binary-tree.js';
 import { IsBeautifulString } from './solutions/is-beautiful-string.js';
+import { KthLargestInStream } from './solutions/kth-largest-in-stream.js';
 
 export const AllAlgos = [
     BoxBlurInfo,
@@ -57,5 +58,6 @@ export const AllAlgos = [
     ReverseLinkedList,
     BishopAndPawn,
     InvertBinaryTree,
-    IsBeautifulString
+    IsBeautifulString,
+    KthLargestInStream
 ]
