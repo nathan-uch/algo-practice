@@ -45,14 +45,14 @@ kthLargest.add(9);   // return 8
 kthLargest.add(4);   // return 8
 */
 
-class KthLargest {
+class KthLargest1 {
     constructor(k, nums) {
         this.k = k;
         this.nums = nums;
     }
 }
 
-KthLargest.prototype.add = function(val) {
+KthLargest1.prototype.add = function(val) {
     this.nums.push(val)
     this.nums.sort((a,b) => a-b);
     let heap = [];
@@ -65,7 +65,7 @@ KthLargest.prototype.add = function(val) {
 };
 // above exceeded time
 
-class KthLargest {
+class KthLargest2 {
   constructor(k, nums) {
     this.k = k
     this.minHeap = new MinPriorityQueue();
@@ -76,7 +76,6 @@ class KthLargest {
     const isUnderCapacity = minHeap.size() < this.k;
     if (isUnderCapacity) {
         minHeap.enqueue(val);
-
         return this.top();
     }
 
