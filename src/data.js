@@ -29,6 +29,7 @@ import { InvertBinaryTree } from './solutions/invert-binary-tree.js';
 import { IsBeautifulString } from './solutions/is-beautiful-string.js';
 import { KthLargestInStream } from './solutions/kth-largest-in-stream.js';
 import { ClimbingStairs } from './solutions/climbing-stairs.js';
+import { FindEmailDomain } from './solutions/find-email-domain.js';
 
 export const AllAlgos = [
     BoxBlurInfo,
@@ -61,5 +62,6 @@ export const AllAlgos = [
     InvertBinaryTree,
     IsBeautifulString,
     KthLargestInStream,
-    ClimbingStairs
+    ClimbingStairs,
+    FindEmailDomain
 ]
