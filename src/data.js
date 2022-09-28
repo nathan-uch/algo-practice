@@ -30,6 +30,7 @@ import { IsBeautifulString } from './solutions/is-beautiful-string.js';
 import { KthLargestInStream } from './solutions/kth-largest-in-stream.js';
 import { ClimbingStairs } from './solutions/climbing-stairs.js';
 import { FindEmailDomain } from './solutions/find-email-domain.js';
+import { MaximumSubarray } from './solutions/maximum-subarray.js';
 
 export const AllAlgos = [
     BoxBlurInfo,
@@ -63,5 +64,6 @@ export const AllAlgos = [
     IsBeautifulString,
     KthLargestInStream,
     ClimbingStairs,
-    FindEmailDomain
+    FindEmailDomain,
+    MaximumSubarray
 ]
