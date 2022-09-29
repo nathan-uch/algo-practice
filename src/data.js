@@ -31,6 +31,7 @@ import { KthLargestInStream } from './solutions/kth-largest-in-stream.js';
 import { ClimbingStairs } from './solutions/climbing-stairs.js';
 import { FindEmailDomain } from './solutions/find-email-domain.js';
 import { MaximumSubarray } from './solutions/maximum-subarray.js';
+import { BuildPalindrome } from './solutions/build-palindrome.js';
 
 export const AllAlgos = [
     BoxBlurInfo,
@@ -65,5 +66,6 @@ export const AllAlgos = [
     KthLargestInStream,
     ClimbingStairs,
     FindEmailDomain,
-    MaximumSubarray
+    MaximumSubarray,
+    BuildPalindrome
 ]
