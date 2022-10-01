@@ -32,6 +32,7 @@ import { ClimbingStairs } from './solutions/climbing-stairs.js';
 import { FindEmailDomain } from './solutions/find-email-domain.js';
 import { MaximumSubarray } from './solutions/maximum-subarray.js';
 import { BuildPalindrome } from './solutions/build-palindrome.js';
+import { SingleNumber } from './solutions/single-number.js';
 
 export const AllAlgos = [
     BoxBlurInfo,
@@ -67,5 +68,6 @@ export const AllAlgos = [
     ClimbingStairs,
     FindEmailDomain,
     MaximumSubarray,
-    BuildPalindrome
+    BuildPalindrome,
+    SingleNumber
 ]
