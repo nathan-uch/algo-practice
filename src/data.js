@@ -34,6 +34,7 @@ import { MaximumSubarray } from './solutions/maximum-subarray.js';
 import { BuildPalindrome } from './solutions/build-palindrome.js';
 import { SingleNumber } from './solutions/single-number.js';
 import { ElectionsWinnders } from './solutions/election-winners.js'
+import { MaxDepthBinaryTree } from './solutions/max-depth-binary-tree.js'
 
 export const AllAlgos = [
     BoxBlurInfo,
@@ -71,5 +72,6 @@ export const AllAlgos = [
     MaximumSubarray,
     BuildPalindrome,
     SingleNumber,
-    ElectionsWinnders
+    ElectionsWinnders,
+    MaxDepthBinaryTree
 ]
