@@ -47,8 +47,6 @@ function solution(votes, k) {
   let hi = Math.max(...votes);
   let repeats = 0;
   for (let i = 0; i < max.length; i++) {
-    console.log('max[i] & hi:', max[i], hi);
-    console.log(repeats)
     if (max[i] > hi) {
       res++;
     } else if (max[i] === hi) {
@@ -58,5 +56,3 @@ function solution(votes, k) {
   if (repeats === 1 && k === 0) return repeats;
   return res;
 }
-
-console.log(solution([1, 2, 3, 4, 5], 4), 'ans: 4');
