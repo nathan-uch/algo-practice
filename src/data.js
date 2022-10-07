@@ -36,6 +36,7 @@ import { SingleNumber } from './solutions/single-number.js';
 import { ElectionsWinnders } from './solutions/election-winners.js'
 import { MaxDepthBinaryTree } from './solutions/max-depth-binary-tree.js'
 import { IsMAC48Address } from './solutions/is-mac-48-address.js'
+import { TwoSum } from './solutions/two-sum.js';
 
 export const AllAlgos = [
     BoxBlurInfo,
@@ -75,5 +76,6 @@ export const AllAlgos = [
     SingleNumber,
     ElectionsWinnders,
     MaxDepthBinaryTree,
-    IsMAC48Address
+    IsMAC48Address,
+    TwoSum
 ]
