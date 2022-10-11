@@ -10,17 +10,20 @@ import { AllAlgos } from "./components/data.js";
     let hnot = 0;
     for (let k = 0; k < AllAlgos.length; k++) {
         CreateRow(AllAlgos[k]);
-        if (AllAlgos[k].difficulty.toLowerCase() === 'easy' && AllAlgos[k].completed === true) {
+        const dif = AllAlgos[k].difficulty.toLowerCase();
+        const comp = AllAlgos[k].completed;
+
+        if (dif === 'easy' && comp === true) {
             e++;
-        } else if (AllAlgos[k].difficulty.toLowerCase() === 'medium' && AllAlgos[k].completed === true) {
+        } else if (dif === 'medium' && comp === true) {
             m++;
-        } else if (AllAlgos[k].difficulty.toLowerCase() === 'hard' && AllAlgos[k].completed === true) {
+        } else if (dif === 'hard' && comp === true) {
             h++;
-        } else if (AllAlgos[k].difficulty.toLowerCase() === 'easy' && AllAlgos[k].completed === false) {
+        } else if (dif === 'easy' && comp === false) {
             mnot++;
-        } else if (AllAlgos[k].difficulty.toLowerCase() === 'medium' && AllAlgos[k].completed === false) {
+        } else if (dif === 'medium' && comp === false) {
             mnot++;
-        } else if (AllAlgos[k].difficulty.toLowerCase() === 'hard' && AllAlgos[k].completed === false) {
+        } else if (dif === 'hard' && comp === false) {
             hnot++;
         }
     }
