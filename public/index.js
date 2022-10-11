@@ -1,6 +1,5 @@
-import CreateRow from "./public/create-row.js";
-import { AllAlgos } from "./public/data.js";
-
+import CreateRow from "./components/create-row.js";
+import { AllAlgos } from "./components/data.js";
 (function PopulateTables() {
     let e = 0;
     let m = 0;
@@ -10,36 +9,41 @@ import { AllAlgos } from "./public/data.js";
     let hnot = 0;
     for (let k = 0; k < AllAlgos.length; k++) {
         CreateRow(AllAlgos[k]);
-        if (AllAlgos[k].difficulty.toLowerCase() === 'easy' && AllAlgos[k].complete === true) {
+        const dif = AllAlgos[k].difficulty.toLowerCase();
+        const comp = AllAlgos[k].completed;
+        if (dif === 'easy' && comp === true) {
             e++;
-        } else if (AllAlgos[k].difficulty.toLowerCase() === 'medium' && AllAlgos[k].complete === true) {
+        }
+        else if (dif === 'medium' && comp === true) {
             m++;
-        } else if (AllAlgos[k].difficulty.toLowerCase() === 'hard' && AllAlgos[k].complete === true) {
+        }
+        else if (dif === 'hard' && comp === true) {
             h++;
-        } else if (AllAlgos[k].difficulty.toLowerCase() === 'easy' && AllAlgos[k].complete === false) {
+        }
+        else if (dif === 'easy' && comp === false) {
             mnot++;
-        } else if (AllAlgos[k].difficulty.toLowerCase() === 'medium' && AllAlgos[k].complete === false) {
+        }
+        else if (dif === 'medium' && comp === false) {
             mnot++;
-        } else if (AllAlgos[k].difficulty.toLowerCase() === 'hard' && AllAlgos[k].complete === false) {
+        }
+        else if (dif === 'hard' && comp === false) {
             hnot++;
         }
     }
-
     const $easyCompleted = document.getElementById('easy-completed');
-    $easyCompleted.textContent = e;
+    $easyCompleted.textContent = e.toString();
     const $mediumCompleted = document.getElementById('medium-completed');
-    $mediumCompleted.textContent = m;
+    $mediumCompleted.textContent = m.toString();
     const $hardCompleted = document.getElementById('hard-completed');
-    $hardCompleted.textContent = h;
+    $hardCompleted.textContent = h.toString();
     const $questionsCompleted = document.getElementById('total-completed');
-    $questionsCompleted.textContent = Number(e) + Number(m) + Number(h);
-
+    $questionsCompleted.textContent = (Number(e) + Number(m) + Number(h)).toString();
     const $easyNotCompleted = document.getElementById('easy-not-completed');
-    $easyNotCompleted.textContent = enot;
+    $easyNotCompleted.textContent = enot.toString();
     const $mediumNotCompleted = document.getElementById('medium-not-completed');
-    $mediumNotCompleted.textContent = mnot;
+    $mediumNotCompleted.textContent = mnot.toString();
     const $hardNotCompleted = document.getElementById('hard-not-completed');
-    $hardNotCompleted.textContent = hnot;
+    $hardNotCompleted.textContent = hnot.toString();
     const $totalNotCompleted = document.getElementById('total-not-completed');
-    $totalNotCompleted.textContent = Number(enot) + Number(mnot) + Number(hnot);
-} ())
+    $totalNotCompleted.textContent = (Number(enot) + Number(mnot) + Number(hnot)).toString();
+}());

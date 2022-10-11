@@ -35,10 +35,10 @@ import ProblemInfo from '../components/info-class.js';
         for(let i = 0; i < y; i++) {
             result[i] = [];
             for (let t = 0; t < x; t++) {
-                const a = image[i].slice(t, (t+3)).flat().reduce((p, c)=> p + c, 0);
-                const b = image[i+1].slice(t, (t+3)).flat().reduce((p, c)=> p + c, 0);
-                const c = image[i+2].slice(t, (t+3)).flat().reduce((p, c)=> p + c, 0);
-                result[i].push(Math.floor(((a+b+c)/9)))
+              const a = image[i].slice(t, (t+3)).flat().reduce((p: any, c:any) => p + c, 0);
+              const b = image[i+1].slice(t, (t+3)).flat().reduce((p: any, c: any) => p + c, 0);
+              const c = image[i+2].slice(t, (t+3)).flat().reduce((p:any, c: any) => p + c, 0);
+              result[i].push(Math.floor(((a+b+c)/9)))
             }
         }
         return result;
