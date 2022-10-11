@@ -1,3 +1,4 @@
+import ProblemInfo from './info-class.js';
 import { BoxBlurInfo }  from '../src/solutions/box-blur.js';
 import { Minesweeper } from './solutions/minesweeper.js';
 import { CenturyFromYear } from './solutions/century-from-year.js';
@@ -40,7 +41,7 @@ import { TwoSum } from './solutions/two-sum.js';
 import { IsDigit } from './solutions/is-digit.js';
 import { LineEncoding } from './solutions/line-encoding.js'
 
-export const AllAlgos: object[] = [
+export const AllAlgos: ProblemInfo[] = [
     BoxBlurInfo,
     Minesweeper,
     CenturyFromYear,
