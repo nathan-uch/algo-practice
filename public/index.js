@@ -1,5 +1,5 @@
-import CreateRow from "./src/create-row.js";
-import { AllAlgos } from "./src/data.js";
+import CreateRow from "./public/create-row.js";
+import { AllAlgos } from "./public/data.js";
 
 (function PopulateTables() {
     let e = 0;
