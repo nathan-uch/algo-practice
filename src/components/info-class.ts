@@ -10,8 +10,9 @@ export default class ProblemInfo {
   helpSource: string;
   topics: string;
   pseudoCode: string;
+  solution: Function;
 
-  constructor(name: string, difficulty: string, date: string, source: string, link:string, summary: string, completed: boolean, usedHelp: boolean, helpSource:string, topics: string, pseudoCode: string) {
+  constructor(name: string, difficulty: string, date: string, source: string, link:string, summary: string, completed: boolean, usedHelp: boolean, helpSource:string, topics: string, pseudoCode: string, solution: Function) {
     this.name = name;
     this.difficulty = difficulty;
     this.date = date;
@@ -23,5 +24,25 @@ export default class ProblemInfo {
     this.helpSource = helpSource;
     this.topics = topics;
     this.pseudoCode = pseudoCode;
+    this.solution = solution;
   }
 }
+
+/*
+  export const x = new ProblemInfo(
+    '', // name
+    '', // difficulty
+    '', // date
+    '', // source
+    '', // link
+    '', // summary
+    false, // completed
+    false, // usedHelp
+    '', // helpSource
+    '', // topics
+    `
+
+    `, // pseudoCode
+    function solution() {} // solution
+  );
+*/
