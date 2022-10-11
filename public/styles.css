@@ -8,6 +8,7 @@ h1 {
 
 tr {
     width: 100%;
+    white-space: nowrap;
 }
 
 .algo-table {

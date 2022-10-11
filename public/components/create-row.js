@@ -8,13 +8,6 @@ export default function CreateRow(info) {
         if (id === 'name') {
             $td.textContent = info.name;
         }
-        else if (id === 'link') {
-            const $link = document.createElement('a');
-            $link.textContent = info.source;
-            $link.setAttribute('target', '_blank');
-            $link.setAttribute('href', info.link);
-            $td.appendChild($link);
-        }
         else if (id === 'difficulty') {
             $td.textContent = info.difficulty;
             if (info.difficulty.toLowerCase() === 'easy')
@@ -27,6 +20,16 @@ export default function CreateRow(info) {
         else if (id === 'date') {
             $td.textContent = info.date;
         }
+        else if (id === 'link') {
+            const $link = document.createElement('a');
+            $link.textContent = info.source;
+            $link.setAttribute('target', '_blank');
+            $link.setAttribute('href', info.link);
+            $td.appendChild($link);
+        }
+        else if (id === 'summary') {
+            $td.textContent = info.summary;
+        }
         else if (id === 'completed') {
             const $icon = document.createElement('i');
             if (info.completed)
@@ -34,9 +37,6 @@ export default function CreateRow(info) {
             if (!info.completed)
                 $icon.className = 'fa-solid fa-x text-danger';
             $td.appendChild($icon);
-        }
-        else if (id === 'summary') {
-            $td.textContent = info.summary;
         }
         else if (id === 'usedHelp') {
             if (!info.usedHelp || info.usedHelp === undefined)
