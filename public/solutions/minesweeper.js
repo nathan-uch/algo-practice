@@ -28,10 +28,10 @@ export const Minesweeper = new ProblemInfo('Minesweeper', 'Medium', 'Aug 30, 202
                 if (y < matrix.length - 1) {
                     board[y + 1][x]++;
                 }
-                if ((y < matrix.length - 1) && (x < matrix[y].length - 1)) {
+                if (y < matrix.length - 1 && x < matrix[y].length - 1) {
                     board[y + 1][x + 1]++;
                 }
-                if ((x > 0) && (y < matrix.length - 1)) {
+                if (x > 0 && y < matrix.length - 1) {
                     board[y + 1][x - 1]++;
                 }
                 if (x > 0) {
@@ -46,7 +46,7 @@ export const Minesweeper = new ProblemInfo('Minesweeper', 'Medium', 'Aug 30, 202
                 if (y > 0 && x > 0) {
                     board[y - 1][x - 1]++;
                 }
-                if ((y > 0) && (x < matrix[y].length - 1)) {
+                if (y > 0 && x < matrix[y].length - 1) {
                     board[y - 1][x + 1]++;
                 }
             }
