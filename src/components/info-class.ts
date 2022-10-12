@@ -3,7 +3,7 @@ export default class ProblemInfo {
   difficulty: string;
   date: string;
   source: string;
-  link:string;
+  link: string;
   summary: string;
   completed: boolean;
   usedHelp: boolean;
@@ -12,7 +12,20 @@ export default class ProblemInfo {
   pseudoCode: string;
   solution: Function;
 
-  constructor(name: string, difficulty: string, date: string, source: string, link:string, summary: string, completed: boolean, usedHelp: boolean, helpSource:string, topics: string, pseudoCode: string, solution: Function) {
+  constructor(
+    name: string,
+    difficulty: string,
+    date: string,
+    source: string,
+    link: string,
+    summary: string,
+    completed: boolean,
+    usedHelp: boolean,
+    helpSource: string,
+    topics: string,
+    pseudoCode: string,
+    solution: Function
+  ) {
     this.name = name;
     this.difficulty = difficulty;
     this.date = date;

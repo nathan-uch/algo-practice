@@ -38,14 +38,30 @@ export const Minesweeper = new ProblemInfo(
     for (let y = 0; y < matrix.length; y++) {
       for (let x = 0; x < matrix[y].length; x++) {
         if (matrix[y][x] === true) {
-          if (y < matrix.length-1)                                { board[y+1][x]++;  }   // bottom
-          if ((y < matrix.length-1) && (x < matrix[y].length-1))  { board[y+1][x+1]++; }  // bottom right
-          if ((x > 0) && (y < matrix.length-1))                   { board[y+1][x-1]++; }  // bottom left
-          if (x > 0)                                              { board[y][x-1]++; }    // left
-          if (x < matrix[y].length-1)                             { board[y][x+1]++; }    // right
-          if (y > 0)                                              { board[y-1][x]++; }    // top
-          if (y > 0 && x > 0)                                     { board[y-1][x-1]++; }  // top left
-          if ((y > 0) && (x < matrix[y].length -1))               { board[y-1][x+1]++; }  // top right
+          if (y < matrix.length - 1) {
+            board[y + 1][x]++;
+          } // bottom
+          if (y < matrix.length - 1 && x < matrix[y].length - 1) {
+            board[y + 1][x + 1]++;
+          } // bottom right
+          if (x > 0 && y < matrix.length - 1) {
+            board[y + 1][x - 1]++;
+          } // bottom left
+          if (x > 0) {
+            board[y][x - 1]++;
+          } // left
+          if (x < matrix[y].length - 1) {
+            board[y][x + 1]++;
+          } // right
+          if (y > 0) {
+            board[y - 1][x]++;
+          } // top
+          if (y > 0 && x > 0) {
+            board[y - 1][x - 1]++;
+          } // top left
+          if (y > 0 && x < matrix[y].length - 1) {
+            board[y - 1][x + 1]++;
+          } // top right
         }
       }
     }

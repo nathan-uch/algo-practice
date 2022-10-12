@@ -1,9 +1,10 @@
 import ProblemInfo from '../info-template.js';
 
-export const ArrayReplace = new ProblemInfo;
+export const ArrayReplace = new ProblemInfo();
 ArrayReplace.name = 'Array Replace';
 ArrayReplace.website = 'Code Signal';
-ArrayReplace.link = 'https://app.codesignal.com/arcade/intro/level-6/mCkmbxdMsMTjBc3Bm/solutions';
+ArrayReplace.link =
+  'https://app.codesignal.com/arcade/intro/level-6/mCkmbxdMsMTjBc3Bm/solutions';
 ArrayReplace.date = 'Sep 1, 2022';
 ArrayReplace.difficulty = 'Easy';
 ArrayReplace.recommendedTime = 10;
@@ -30,13 +31,13 @@ result = [3, 2, 3]
 */
 
 function solution(inputArray, elemToReplace, substitutionElem) {
-    const result = [];
-    for (let i = 0; i < inputArray.length; i++) {
-        if (inputArray[i] === elemToReplace) {
-            result.push(substitutionElem);
-        } else {
-            result.push(inputArray[i]);
-        }
+  const result = [];
+  for (let i = 0; i < inputArray.length; i++) {
+    if (inputArray[i] === elemToReplace) {
+      result.push(substitutionElem);
+    } else {
+      result.push(inputArray[i]);
     }
-    return result;
+  }
+  return result;
 }
