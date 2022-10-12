@@ -28,7 +28,7 @@ import ProblemInfo from '../components/info-class.js';
         13. increment row
     14. return array
     `, // pseudoCode
-    function solution(image: any[])  {
+    function solution(image: number[][]):number[][]  {
       const result: any[] = [];
         const y = (image.length) -2;
         const x = (image[0].length) -2;

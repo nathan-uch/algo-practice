@@ -1,6 +1,6 @@
 import ProblemInfo from './info-class.js';
 import { BoxBlurInfo }  from '../solutions/box-blur.js';
-// import { Minesweeper } from '../solutions/minesweeper.js';
+import { Minesweeper } from '../solutions/minesweeper.js';
 // import { CenturyFromYear } from '..box-blur';
 // import { ArrayReplace } from './solutions/array-replace.js';
 // import { EvenDigitsOnly } from './solutions/even-digits-only.js';
@@ -43,7 +43,7 @@ import { BoxBlurInfo }  from '../solutions/box-blur.js';
 
 export const AllAlgos: ProblemInfo[] = [
     BoxBlurInfo,
-    // Minesweeper,
+    Minesweeper,
     // CenturyFromYear,
     // ArrayReplace,
     // EvenDigitsOnly,
