@@ -6,7 +6,7 @@ export const AlphabeticShift = new ProblemInfo(
   'Sep 2, 2022', // date
   'Code Signal', // source
   'https://app.codesignal.com/arcade/intro/level-6/PWLT8GBrv9xXy4Dui/solutions', // link
-  '', // summary
+  'Replace each letter of a string with the next letter in alphabet.', // summary
   true, // completed
   false, // usedHelp
   '', // helpSource
