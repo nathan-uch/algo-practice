@@ -8,8 +8,8 @@ import { VariableName } from '../solutions/variable-name.js';
 import { AlphabeticShift } from '../solutions/alphabetic-shift.js';
 import { ChessBoardCellColor } from '../solutions/chess-board-cell-color.js';
 import { CircleOfNumbers } from '../solutions/circle-of-numbers.js';
-// import { DepositProfit } from '../solutions/deposit-profit.js';
-// import { AbsoluteValuesSumMinimization } from '../solutions/absolute-values-sum-minimization.js';
+import { DepositProfit } from '../solutions/deposit-profit.js';
+import { AbsoluteValuesSumMinimization } from '../solutions/absolute-values-sum-minimization.js';
 // import { ContainsDuplicate } from '../solutions/contains-duplicate.js';
 // import { StringsRearrangement } from '../solutions/strings-rearrangement.js';
 // import { IsAnagram } from '../solutions/is-tsanagram.js';
@@ -51,8 +51,8 @@ export const AllAlgos: ProblemInfo[] = [
   AlphabeticShift,
   ChessBoardCellColor,
   CircleOfNumbers,
-  // DepositProfit,
-  // AbsoluteValuesSumMinimization,
+  DepositProfit,
+  AbsoluteValuesSumMinimization,
   // ContainsDuplicate,
   // StringsRearrangement,
   // IsAnagram,
