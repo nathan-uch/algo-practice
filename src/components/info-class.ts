@@ -11,6 +11,7 @@ export default class ProblemInfo {
   topics: string;
   pseudoCode: string;
   solution: Function;
+  solution2?: Function;
 
   constructor(
     name: string,
@@ -24,7 +25,8 @@ export default class ProblemInfo {
     helpSource: string,
     topics: string,
     pseudoCode: string,
-    solution: Function
+    solution: Function,
+    solution2?: Function
   ) {
     this.name = name;
     this.difficulty = difficulty;
@@ -38,6 +40,7 @@ export default class ProblemInfo {
     this.topics = topics;
     this.pseudoCode = pseudoCode;
     this.solution = solution;
+    this.solution2 = solution2;
   }
 }
 
@@ -49,13 +52,14 @@ export default class ProblemInfo {
     '', // source
     '', // link
     '', // summary
-    false, // completed
+    true, // completed
     false, // usedHelp
     '', // helpSource
     '', // topics
     `
 
     `, // pseudoCode
-    function solution() {} // solution
+    function solution() {}, // solution
+    function solution2() {}, // solution2, optional
   );
 */
