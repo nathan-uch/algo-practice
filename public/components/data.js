@@ -13,6 +13,8 @@ import { ContainsDuplicate } from '../solutions/contains-duplicate.js';
 import { StringsRearrangement } from '../solutions/strings-rearrangement.js';
 import { IsAnagram } from '../solutions/is-anagram.js';
 import { ValidPalindrome } from '../solutions/valid-palindrome.js';
+import { BestTimeToBuySellStock } from '../solutions/buy-sell-stock.js';
+import { ExtractEachKth } from '../solutions/extract-each-kth.js';
 import { ValidParenthesis } from '../solutions/valid-parenthesis.js';
 export const AllAlgos = [
     BoxBlurInfo,
@@ -30,5 +32,7 @@ export const AllAlgos = [
     StringsRearrangement,
     IsAnagram,
     ValidPalindrome,
+    BestTimeToBuySellStock,
+    ExtractEachKth,
     ValidParenthesis,
 ];

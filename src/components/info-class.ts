@@ -45,6 +45,8 @@ export default class ProblemInfo {
 }
 
 /*
+  import ProblemInfo from '../components/info-class.js';
+
   export const x = new ProblemInfo(
     '', // name
     '', // difficulty

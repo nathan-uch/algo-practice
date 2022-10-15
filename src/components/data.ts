@@ -14,8 +14,8 @@ import { ContainsDuplicate } from '../solutions/contains-duplicate.js';
 import { StringsRearrangement } from '../solutions/strings-rearrangement.js';
 import { IsAnagram } from '../solutions/is-anagram.js';
 import { ValidPalindrome } from '../solutions/valid-palindrome.js';
-// import { BestTimeToBuySellStock } from '../solutions/buy-sell-stock.js';
-// import { ExtractEachKth } from '../solutions/extract-each-kth.js';
+import { BestTimeToBuySellStock } from '../solutions/buy-sell-stock.js';
+import { ExtractEachKth } from '../solutions/extract-each-kth.js';
 // import { DifferentSymbolsNaive } from '../solutions/different-symbols-naive.js';
 // import { ArrayMaxConsecutiveSum } from '../solutions/array-max-consec-sum.js';
 // import { GrowingPlant } from '../solutions/growing-plant.js';
@@ -57,8 +57,8 @@ export const AllAlgos: ProblemInfo[] = [
   StringsRearrangement,
   IsAnagram,
   ValidPalindrome,
-  // BestTimeToBuySellStock,
-  // ExtractEachKth,
+  BestTimeToBuySellStock,
+  ExtractEachKth,
   // DifferentSymbolsNaive,
   // ArrayMaxConsecutiveSum,
   // GrowingPlant,
