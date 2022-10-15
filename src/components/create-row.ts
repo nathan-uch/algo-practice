@@ -36,7 +36,6 @@ export default function CreateRow(info: ProblemInfo): void {
       if (!info.usedHelp || info.usedHelp === undefined) $td.textContent = 'No';
       if (info.usedHelp) {
         const $link = document.createElement('a');
-        console.log(info.helpSource);
         if (info.helpSource !== '#') {
           $link.setAttribute('target', '_blank');
         }

@@ -43,7 +43,6 @@ export default function CreateRow(info) {
                 $td.textContent = 'No';
             if (info.usedHelp) {
                 const $link = document.createElement('a');
-                console.log(info.helpSource);
                 if (info.helpSource !== '#') {
                     $link.setAttribute('target', '_blank');
                 }

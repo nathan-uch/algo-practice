@@ -12,15 +12,15 @@ import { DepositProfit } from '../solutions/deposit-profit.js';
 import { AbsoluteValuesSumMinimization } from '../solutions/absolute-values-sum-minimization.js';
 import { ContainsDuplicate } from '../solutions/contains-duplicate.js';
 import { StringsRearrangement } from '../solutions/strings-rearrangement.js';
-// import { IsAnagram } from '../solutions/is-tsanagram.js';
-// import { ValidPalindrome } from '../solutions/valid-palindrome.js';
+import { IsAnagram } from '../solutions/is-anagram.js';
+import { ValidPalindrome } from '../solutions/valid-palindrome.js';
 // import { BestTimeToBuySellStock } from '../solutions/buy-sell-stock.js';
 // import { ExtractEachKth } from '../solutions/extract-each-kth.js';
 // import { DifferentSymbolsNaive } from '../solutions/different-symbols-naive.js';
 // import { ArrayMaxConsecutiveSum } from '../solutions/array-max-consec-sum.js';
 // import { GrowingPlant } from '../solutions/growing-plant.js';
 // import { KnapsackLight } from '../solutions/knapsack-light.js';
-// import { ValidParenthesis } from '../solutions/valid-parenthesis.js';
+import { ValidParenthesis } from '../solutions/valid-parenthesis.js';
 // import { LongestDigitsPrefix } from '../solutions/longest-digits-prefix.js';
 // import { BinarySearch } from '../solutions/binary-search.js';
 // import { DigitDegree } from '../solutions/digit-degree.js';
@@ -55,15 +55,15 @@ export const AllAlgos: ProblemInfo[] = [
   AbsoluteValuesSumMinimization,
   ContainsDuplicate,
   StringsRearrangement,
-  // IsAnagram,
-  // ValidPalindrome,
+  IsAnagram,
+  ValidPalindrome,
   // BestTimeToBuySellStock,
   // ExtractEachKth,
   // DifferentSymbolsNaive,
   // ArrayMaxConsecutiveSum,
   // GrowingPlant,
   // KnapsackLight,
-  // ValidParenthesis,
+  ValidParenthesis,
   // LongestDigitsPrefix,
   // BinarySearch,
   // DigitDegree,

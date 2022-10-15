@@ -11,6 +11,9 @@ import { DepositProfit } from '../solutions/deposit-profit.js';
 import { AbsoluteValuesSumMinimization } from '../solutions/absolute-values-sum-minimization.js';
 import { ContainsDuplicate } from '../solutions/contains-duplicate.js';
 import { StringsRearrangement } from '../solutions/strings-rearrangement.js';
+import { IsAnagram } from '../solutions/is-anagram.js';
+import { ValidPalindrome } from '../solutions/valid-palindrome.js';
+import { ValidParenthesis } from '../solutions/valid-parenthesis.js';
 export const AllAlgos = [
     BoxBlurInfo,
     Minesweeper,
@@ -25,4 +28,7 @@ export const AllAlgos = [
     AbsoluteValuesSumMinimization,
     ContainsDuplicate,
     StringsRearrangement,
+    IsAnagram,
+    ValidPalindrome,
+    ValidParenthesis,
 ];
