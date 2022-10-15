@@ -10,6 +10,7 @@ import { CircleOfNumbers } from '../solutions/circle-of-numbers.js';
 import { DepositProfit } from '../solutions/deposit-profit.js';
 import { AbsoluteValuesSumMinimization } from '../solutions/absolute-values-sum-minimization.js';
 import { ContainsDuplicate } from '../solutions/contains-duplicate.js';
+import { StringsRearrangement } from '../solutions/strings-rearrangement.js';
 export const AllAlgos = [
     BoxBlurInfo,
     Minesweeper,
@@ -23,4 +24,5 @@ export const AllAlgos = [
     DepositProfit,
     AbsoluteValuesSumMinimization,
     ContainsDuplicate,
+    StringsRearrangement,
 ];

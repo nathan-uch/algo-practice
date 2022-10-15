@@ -11,7 +11,7 @@ import { CircleOfNumbers } from '../solutions/circle-of-numbers.js';
 import { DepositProfit } from '../solutions/deposit-profit.js';
 import { AbsoluteValuesSumMinimization } from '../solutions/absolute-values-sum-minimization.js';
 import { ContainsDuplicate } from '../solutions/contains-duplicate.js';
-// import { StringsRearrangement } from '../solutions/strings-rearrangement.js';
+import { StringsRearrangement } from '../solutions/strings-rearrangement.js';
 // import { IsAnagram } from '../solutions/is-tsanagram.js';
 // import { ValidPalindrome } from '../solutions/valid-palindrome.js';
 // import { BestTimeToBuySellStock } from '../solutions/buy-sell-stock.js';
@@ -54,7 +54,7 @@ export const AllAlgos: ProblemInfo[] = [
   DepositProfit,
   AbsoluteValuesSumMinimization,
   ContainsDuplicate,
-  // StringsRearrangement,
+  StringsRearrangement,
   // IsAnagram,
   // ValidPalindrome,
   // BestTimeToBuySellStock,
