@@ -10,7 +10,7 @@ import { ChessBoardCellColor } from '../solutions/chess-board-cell-color.js';
 import { CircleOfNumbers } from '../solutions/circle-of-numbers.js';
 import { DepositProfit } from '../solutions/deposit-profit.js';
 import { AbsoluteValuesSumMinimization } from '../solutions/absolute-values-sum-minimization.js';
-// import { ContainsDuplicate } from '../solutions/contains-duplicate.js';
+import { ContainsDuplicate } from '../solutions/contains-duplicate.js';
 // import { StringsRearrangement } from '../solutions/strings-rearrangement.js';
 // import { IsAnagram } from '../solutions/is-tsanagram.js';
 // import { ValidPalindrome } from '../solutions/valid-palindrome.js';
@@ -53,7 +53,7 @@ export const AllAlgos: ProblemInfo[] = [
   CircleOfNumbers,
   DepositProfit,
   AbsoluteValuesSumMinimization,
-  // ContainsDuplicate,
+  ContainsDuplicate,
   // StringsRearrangement,
   // IsAnagram,
   // ValidPalindrome,
