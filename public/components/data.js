@@ -15,6 +15,7 @@ import { IsAnagram } from '../solutions/is-anagram.js';
 import { ValidPalindrome } from '../solutions/valid-palindrome.js';
 import { BestTimeToBuySellStock } from '../solutions/buy-sell-stock.js';
 import { ExtractEachKth } from '../solutions/extract-each-kth.js';
+import { DifferentSymbolsNaive } from '../solutions/different-symbols-naive.js';
 import { ValidParenthesis } from '../solutions/valid-parenthesis.js';
 export const AllAlgos = [
     BoxBlurInfo,
@@ -34,5 +35,6 @@ export const AllAlgos = [
     ValidPalindrome,
     BestTimeToBuySellStock,
     ExtractEachKth,
+    DifferentSymbolsNaive,
     ValidParenthesis,
 ];
