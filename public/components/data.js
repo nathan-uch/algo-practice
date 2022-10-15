@@ -18,6 +18,7 @@ import { ExtractEachKth } from '../solutions/extract-each-kth.js';
 import { DifferentSymbolsNaive } from '../solutions/different-symbols-naive.js';
 import { ArrayMaxConsecutiveSum } from '../solutions/array-max-consec-sum.js';
 import { GrowingPlant } from '../solutions/growing-plant.js';
+import { KnapsackLight } from '../solutions/knapsack-light.js';
 import { ValidParenthesis } from '../solutions/valid-parenthesis.js';
 export const AllAlgos = [
     BoxBlurInfo,
@@ -40,5 +41,6 @@ export const AllAlgos = [
     DifferentSymbolsNaive,
     ArrayMaxConsecutiveSum,
     GrowingPlant,
+    KnapsackLight,
     ValidParenthesis,
 ];
