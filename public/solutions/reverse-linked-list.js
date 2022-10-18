@@ -1,5 +1,5 @@
 import ProblemInfo from '../components/info-class.js';
-class Node {
+export class Node {
     constructor(val) {
         this.next = null;
         this.val = val;
