@@ -22,9 +22,9 @@ import { GrowingPlant } from '../solutions/growing-plant.js';
 import { KnapsackLight } from '../solutions/knapsack-light.js';
 import { ValidParenthesis } from '../solutions/valid-parenthesis.js';
 import { LongestDigitsPrefix } from '../solutions/longest-digits-prefix.js';
-// import { BinarySearch } from '../solutions/binary-search.js';
-// import { DigitDegree } from '../solutions/digit-degree.js';
-// import { ReverseLinkedList } from '../solutions/reverse-linked-list.js';
+import { BinarySearch } from '../solutions/binary-search.js';
+import { DigitDegree } from '../solutions/digit-degree.js';
+import { ReverseLinkedList } from '../solutions/reverse-linked-list.js';
 // import { BishopAndPawn } from '../solutions/bishop-and-pawn.js';
 // import { InvertBinaryTree } from '../solutions/invert-binary-tree.js';
 // import { IsBeautifulString } from '../solutions/is-beautiful-string.js';
@@ -65,9 +65,9 @@ export const AllAlgos: ProblemInfo[] = [
   KnapsackLight,
   ValidParenthesis,
   LongestDigitsPrefix,
-  // BinarySearch,
-  // DigitDegree,
-  // ReverseLinkedList,
+  BinarySearch,
+  DigitDegree,
+  ReverseLinkedList,
   // BishopAndPawn,
   // InvertBinaryTree,
   // IsBeautifulString,
