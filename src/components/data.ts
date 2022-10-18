@@ -25,7 +25,7 @@ import { LongestDigitsPrefix } from '../solutions/longest-digits-prefix.js';
 import { BinarySearch } from '../solutions/binary-search.js';
 import { DigitDegree } from '../solutions/digit-degree.js';
 import { ReverseLinkedList } from '../solutions/reverse-linked-list.js';
-// import { BishopAndPawn } from '../solutions/bishop-and-pawn.js';
+import { BishopAndPawn } from '../solutions/bishop-and-pawn.js';
 // import { InvertBinaryTree } from '../solutions/invert-binary-tree.js';
 // import { IsBeautifulString } from '../solutions/is-beautiful-string.js';
 // import { KthLargestInStream } from '../solutions/kth-largest-in-stream.js';
@@ -68,7 +68,7 @@ export const AllAlgos: ProblemInfo[] = [
   BinarySearch,
   DigitDegree,
   ReverseLinkedList,
-  // BishopAndPawn,
+  BishopAndPawn,
   // InvertBinaryTree,
   // IsBeautifulString,
   // KthLargestInStream,
