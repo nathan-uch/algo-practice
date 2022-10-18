@@ -27,7 +27,7 @@ import { DigitDegree } from '../solutions/digit-degree.js';
 import { ReverseLinkedList } from '../solutions/reverse-linked-list.js';
 import { BishopAndPawn } from '../solutions/bishop-and-pawn.js';
 import { InvertBinaryTree } from '../solutions/invert-binary-tree.js';
-// import { IsBeautifulString } from '../solutions/is-beautiful-string.js';
+import { IsBeautifulString } from '../solutions/is-beautiful-string.js';
 // import { KthLargestInStream } from '../solutions/kth-largest-in-stream.js';
 // import { ClimbingStairs } from '../solutions/climbing-stairs.js';
 // import { FindEmailDomain } from '../solutions/find-email-domain.js';
@@ -70,7 +70,7 @@ export const AllAlgos: ProblemInfo[] = [
   ReverseLinkedList,
   BishopAndPawn,
   InvertBinaryTree,
-  // IsBeautifulString,
+  IsBeautifulString,
   // KthLargestInStream,
   // ClimbingStairs,
   // FindEmailDomain,
