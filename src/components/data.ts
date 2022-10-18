@@ -37,7 +37,7 @@ import { ElectionsWinnders } from '../solutions/election-winners.js';
 import { MaxDepthBinaryTree } from '../solutions/max-depth-binary-tree.js';
 import { IsMAC48Address } from '../solutions/is-mac-48-address.js';
 import { TwoSum } from '../solutions/two-sum.js';
-// import { IsDigit } from '../solutions/is-digit.js';
+import { IsDigit } from '../solutions/is-digit.js';
 // import { LineEncoding } from '../solutions/line-encoding.js'
 
 export const AllAlgos: ProblemInfo[] = [
@@ -79,6 +79,6 @@ export const AllAlgos: ProblemInfo[] = [
   MaxDepthBinaryTree,
   IsMAC48Address,
   TwoSum,
-  // IsDigit,
+  IsDigit,
   // LineEncoding
 ];
