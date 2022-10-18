@@ -30,6 +30,7 @@ import { IsBeautifulString } from '../solutions/is-beautiful-string.js';
 import { ClimbingStairs } from '../solutions/climbing-stairs.js';
 import { FindEmailDomain } from '../solutions/find-email-domain.js';
 import { MaximumSubarray } from '../solutions/maximum-subarray.js';
+import { BuildPalindrome } from '../solutions/build-palindrome.js';
 export const AllAlgos = [
     BoxBlurInfo,
     Minesweeper,
@@ -63,4 +64,5 @@ export const AllAlgos = [
     ClimbingStairs,
     FindEmailDomain,
     MaximumSubarray,
+    BuildPalindrome,
 ];

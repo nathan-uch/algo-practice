@@ -31,7 +31,7 @@ import { IsBeautifulString } from '../solutions/is-beautiful-string.js';
 import { ClimbingStairs } from '../solutions/climbing-stairs.js';
 import { FindEmailDomain } from '../solutions/find-email-domain.js';
 import { MaximumSubarray } from '../solutions/maximum-subarray.js';
-// import { BuildPalindrome } from '../solutions/build-palindrome.js';
+import { BuildPalindrome } from '../solutions/build-palindrome.js';
 // import { SingleNumber } from '../solutions/single-number.js';
 // import { ElectionsWinnders } from '../solutions/election-winners.js';
 // import { MaxDepthBinaryTree } from '../solutions/max-depth-binary-tree.js';
@@ -73,7 +73,7 @@ export const AllAlgos: ProblemInfo[] = [
   ClimbingStairs,
   FindEmailDomain,
   MaximumSubarray,
-  // BuildPalindrome,
+  BuildPalindrome,
   // SingleNumber,
   // ElectionsWinnders,
   // MaxDepthBinaryTree,
