@@ -1,6 +1,6 @@
 import ProblemInfo from '../components/info-class.js';
 
-class Node<T> {
+export class Node<T> {
   val: T;
   next: Node<T> | null = null;
 
