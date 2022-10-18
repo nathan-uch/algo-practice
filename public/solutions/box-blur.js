@@ -17,15 +17,24 @@ export const BoxBlurInfo = new ProblemInfo('Box Blur', 'Easy', 'Aug 29, 2022', '
     14. return array
     `, function solution(image) {
     const result = [];
-    const y = (image.length) - 2;
-    const x = (image[0].length) - 2;
+    const y = image.length - 2;
+    const x = image[0].length - 2;
     for (let i = 0; i < y; i++) {
         result[i] = [];
         for (let t = 0; t < x; t++) {
-            const a = image[i].slice(t, (t + 3)).flat().reduce((p, c) => p + c, 0);
-            const b = image[i + 1].slice(t, (t + 3)).flat().reduce((p, c) => p + c, 0);
-            const c = image[i + 2].slice(t, (t + 3)).flat().reduce((p, c) => p + c, 0);
-            result[i].push(Math.floor(((a + b + c) / 9)));
+            const a = image[i]
+                .slice(t, t + 3)
+                .flat()
+                .reduce((p, c) => p + c, 0);
+            const b = image[i + 1]
+                .slice(t, t + 3)
+                .flat()
+                .reduce((p, c) => p + c, 0);
+            const c = image[i + 2]
+                .slice(t, t + 3)
+                .flat()
+                .reduce((p, c) => p + c, 0);
+            result[i].push(Math.floor((a + b + c) / 9));
         }
     }
     return result;

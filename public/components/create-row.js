@@ -43,7 +43,9 @@ export default function CreateRow(info) {
                 $td.textContent = 'No';
             if (info.usedHelp) {
                 const $link = document.createElement('a');
-                $link.setAttribute('target', '_blank');
+                if (info.helpSource !== '#') {
+                    $link.setAttribute('target', '_blank');
+                }
                 $link.setAttribute('href', info.helpSource);
                 $link.textContent = 'Yes';
                 $td.appendChild($link);
