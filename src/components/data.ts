@@ -33,7 +33,7 @@ import { FindEmailDomain } from '../solutions/find-email-domain.js';
 import { MaximumSubarray } from '../solutions/maximum-subarray.js';
 import { BuildPalindrome } from '../solutions/build-palindrome.js';
 import { SingleNumber } from '../solutions/single-number.js';
-// import { ElectionsWinnders } from '../solutions/election-winners.js';
+import { ElectionsWinnders } from '../solutions/election-winners.js';
 // import { MaxDepthBinaryTree } from '../solutions/max-depth-binary-tree.js';
 // import { IsMAC48Address } from '../solutions/is-mac-48-address.js';
 // import { TwoSum } from '../solutions/two-sum.js';
@@ -75,7 +75,7 @@ export const AllAlgos: ProblemInfo[] = [
   MaximumSubarray,
   BuildPalindrome,
   SingleNumber,
-  // ElectionsWinnders,
+  ElectionsWinnders,
   // MaxDepthBinaryTree,
   // IsMAC48Address,
   // TwoSum,
