@@ -35,7 +35,7 @@ import { BuildPalindrome } from '../solutions/build-palindrome.js';
 import { SingleNumber } from '../solutions/single-number.js';
 import { ElectionsWinnders } from '../solutions/election-winners.js';
 import { MaxDepthBinaryTree } from '../solutions/max-depth-binary-tree.js';
-// import { IsMAC48Address } from '../solutions/is-mac-48-address.js';
+import { IsMAC48Address } from '../solutions/is-mac-48-address.js';
 // import { TwoSum } from '../solutions/two-sum.js';
 // import { IsDigit } from '../solutions/is-digit.js';
 // import { LineEncoding } from '../solutions/line-encoding.js'
@@ -77,7 +77,7 @@ export const AllAlgos: ProblemInfo[] = [
   SingleNumber,
   ElectionsWinnders,
   MaxDepthBinaryTree,
-  // IsMAC48Address,
+  IsMAC48Address,
   // TwoSum,
   // IsDigit,
   // LineEncoding
