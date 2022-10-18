@@ -21,7 +21,7 @@ import { ArrayMaxConsecutiveSum } from '../solutions/array-max-consec-sum.js';
 import { GrowingPlant } from '../solutions/growing-plant.js';
 import { KnapsackLight } from '../solutions/knapsack-light.js';
 import { ValidParenthesis } from '../solutions/valid-parenthesis.js';
-// import { LongestDigitsPrefix } from '../solutions/longest-digits-prefix.js';
+import { LongestDigitsPrefix } from '../solutions/longest-digits-prefix.js';
 // import { BinarySearch } from '../solutions/binary-search.js';
 // import { DigitDegree } from '../solutions/digit-degree.js';
 // import { ReverseLinkedList } from '../solutions/reverse-linked-list.js';
@@ -64,7 +64,7 @@ export const AllAlgos: ProblemInfo[] = [
   GrowingPlant,
   KnapsackLight,
   ValidParenthesis,
-  // LongestDigitsPrefix,
+  LongestDigitsPrefix,
   // BinarySearch,
   // DigitDegree,
   // ReverseLinkedList,
