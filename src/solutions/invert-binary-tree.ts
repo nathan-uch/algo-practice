@@ -1,6 +1,6 @@
 import ProblemInfo from '../components/info-class.js';
 
-class TreeNode<T> {
+export class TreeNode<T> {
   val: T;
   left: TreeNode<T> | null = null;
   right: TreeNode<T> | null = null;

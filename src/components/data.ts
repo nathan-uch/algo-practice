@@ -34,7 +34,7 @@ import { MaximumSubarray } from '../solutions/maximum-subarray.js';
 import { BuildPalindrome } from '../solutions/build-palindrome.js';
 import { SingleNumber } from '../solutions/single-number.js';
 import { ElectionsWinnders } from '../solutions/election-winners.js';
-// import { MaxDepthBinaryTree } from '../solutions/max-depth-binary-tree.js';
+import { MaxDepthBinaryTree } from '../solutions/max-depth-binary-tree.js';
 // import { IsMAC48Address } from '../solutions/is-mac-48-address.js';
 // import { TwoSum } from '../solutions/two-sum.js';
 // import { IsDigit } from '../solutions/is-digit.js';
@@ -76,7 +76,7 @@ export const AllAlgos: ProblemInfo[] = [
   BuildPalindrome,
   SingleNumber,
   ElectionsWinnders,
-  // MaxDepthBinaryTree,
+  MaxDepthBinaryTree,
   // IsMAC48Address,
   // TwoSum,
   // IsDigit,

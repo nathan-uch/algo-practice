@@ -1,5 +1,5 @@
 import ProblemInfo from '../components/info-class.js';
-class TreeNode {
+export class TreeNode {
     constructor(val) {
         this.left = null;
         this.right = null;
