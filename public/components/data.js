@@ -37,6 +37,7 @@ import { MaxDepthBinaryTree } from '../solutions/max-depth-binary-tree.js';
 import { IsMAC48Address } from '../solutions/is-mac-48-address.js';
 import { TwoSum } from '../solutions/two-sum.js';
 import { IsDigit } from '../solutions/is-digit.js';
+import { LineEncoding } from '../solutions/line-encoding.js';
 export const AllAlgos = [
     BoxBlurInfo,
     Minesweeper,
@@ -77,4 +78,5 @@ export const AllAlgos = [
     IsMAC48Address,
     TwoSum,
     IsDigit,
+    LineEncoding,
 ];
