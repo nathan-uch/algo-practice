@@ -16,6 +16,7 @@ import { IsAnagram } from '../solutions/is-anagram.js';
 import { ValidPalindrome } from '../solutions/valid-palindrome.js';
 import { BestTimeToBuySellStock } from '../solutions/buy-sell-stock.js';
 import { ExtractEachKth } from '../solutions/extract-each-kth.js';
+import { FirstDigit } from '../solutions/first-digit.js';
 import { DifferentSymbolsNaive } from '../solutions/different-symbols-naive.js';
 import { ArrayMaxConsecutiveSum } from '../solutions/array-max-consec-sum.js';
 import { GrowingPlant } from '../solutions/growing-plant.js';
@@ -58,6 +59,7 @@ export const AllAlgos: ProblemInfo[] = [
   ValidPalindrome,
   BestTimeToBuySellStock,
   ExtractEachKth,
+  FirstDigit,
   DifferentSymbolsNaive,
   ArrayMaxConsecutiveSum,
   GrowingPlant,
