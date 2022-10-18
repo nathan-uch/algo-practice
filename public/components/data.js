@@ -29,6 +29,7 @@ import { InvertBinaryTree } from '../solutions/invert-binary-tree.js';
 import { IsBeautifulString } from '../solutions/is-beautiful-string.js';
 import { ClimbingStairs } from '../solutions/climbing-stairs.js';
 import { FindEmailDomain } from '../solutions/find-email-domain.js';
+import { MaximumSubarray } from '../solutions/maximum-subarray.js';
 export const AllAlgos = [
     BoxBlurInfo,
     Minesweeper,
@@ -61,4 +62,5 @@ export const AllAlgos = [
     IsBeautifulString,
     ClimbingStairs,
     FindEmailDomain,
+    MaximumSubarray,
 ];
