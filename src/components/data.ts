@@ -28,9 +28,8 @@ import { ReverseLinkedList } from '../solutions/reverse-linked-list.js';
 import { BishopAndPawn } from '../solutions/bishop-and-pawn.js';
 import { InvertBinaryTree } from '../solutions/invert-binary-tree.js';
 import { IsBeautifulString } from '../solutions/is-beautiful-string.js';
-// import { KthLargestInStream } from '../solutions/kth-largest-in-stream.js';
-// import { ClimbingStairs } from '../solutions/climbing-stairs.js';
-// import { FindEmailDomain } from '../solutions/find-email-domain.js';
+import { ClimbingStairs } from '../solutions/climbing-stairs.js';
+import { FindEmailDomain } from '../solutions/find-email-domain.js';
 // import { MaximumSubarray } from '../solutions/maximum-subarray.js';
 // import { BuildPalindrome } from '../solutions/build-palindrome.js';
 // import { SingleNumber } from '../solutions/single-number.js';
@@ -71,9 +70,8 @@ export const AllAlgos: ProblemInfo[] = [
   BishopAndPawn,
   InvertBinaryTree,
   IsBeautifulString,
-  // KthLargestInStream,
-  // ClimbingStairs,
-  // FindEmailDomain,
+  ClimbingStairs,
+  FindEmailDomain,
   // MaximumSubarray,
   // BuildPalindrome,
   // SingleNumber,
