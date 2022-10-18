@@ -25,6 +25,7 @@ import { BinarySearch } from '../solutions/binary-search.js';
 import { DigitDegree } from '../solutions/digit-degree.js';
 import { ReverseLinkedList } from '../solutions/reverse-linked-list.js';
 import { BishopAndPawn } from '../solutions/bishop-and-pawn.js';
+import { InvertBinaryTree } from '../solutions/invert-binary-tree.js';
 export const AllAlgos = [
     BoxBlurInfo,
     Minesweeper,
@@ -53,4 +54,5 @@ export const AllAlgos = [
     DigitDegree,
     ReverseLinkedList,
     BishopAndPawn,
+    InvertBinaryTree,
 ];
