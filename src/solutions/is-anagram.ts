@@ -22,5 +22,22 @@ export const IsAnagram = new ProblemInfo(
     const b = t.split('').sort().join('');
     if (a === b) return true;
     return false;
-  } // solution
+  }, // solution
+  function solution2(s: string, t: string): boolean {
+    if (s.length !== t.length) return false;
+    let hash: any = {};
+    for (let i = 0; i < s.length; i++) {
+      if (hash[s[i]] === undefined) {
+        hash[s[i]] = 1;
+      } else {
+        hash[s[i]]++;
+      }
+    }
+    for (let i = 0; i < t.length; i++) {
+      if (hash[t[i]] === undefined || hash[t[i]] === 0) return false;
+      if (hash[t[i]]) hash[t[i]]--;
+      if (hash[t[i]] === 0) delete hash[t[i]];
+    }
+    return true;
+  }
 );
