@@ -39,6 +39,7 @@ import { IsMAC48Address } from '../solutions/is-mac-48-address.js';
 import { TwoSum } from '../solutions/two-sum.js';
 import { IsDigit } from '../solutions/is-digit.js';
 import { LineEncoding } from '../solutions/line-encoding.js';
+import { NumberOfIslands } from '../solutions/number-of-islands.js';
 export const AllAlgos = [
     BoxBlurInfo,
     Minesweeper,
@@ -81,4 +82,5 @@ export const AllAlgos = [
     TwoSum,
     IsDigit,
     LineEncoding,
+    NumberOfIslands,
 ];
