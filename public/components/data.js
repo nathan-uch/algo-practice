@@ -40,6 +40,7 @@ import { TwoSum } from '../solutions/two-sum.js';
 import { IsDigit } from '../solutions/is-digit.js';
 import { LineEncoding } from '../solutions/line-encoding.js';
 import { ChessKnight } from '../solutions/chess-knight.js';
+import { DeleteDigit } from '../solutions/delete-digit.js';
 export const AllAlgos = [
     BoxBlurInfo,
     Minesweeper,
@@ -83,4 +84,5 @@ export const AllAlgos = [
     IsDigit,
     LineEncoding,
     ChessKnight,
+    DeleteDigit,
 ];
