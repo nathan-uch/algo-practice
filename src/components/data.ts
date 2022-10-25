@@ -42,6 +42,7 @@ import { IsDigit } from '../solutions/is-digit.js';
 import { LineEncoding } from '../solutions/line-encoding.js';
 import { ChessKnight } from '../solutions/chess-knight.js';
 import { DeleteDigit } from '../solutions/delete-digit.js';
+import { LongestWord } from '../solutions/longest-word.js';
 
 export const AllAlgos: ProblemInfo[] = [
   BoxBlurInfo,
@@ -87,4 +88,5 @@ export const AllAlgos: ProblemInfo[] = [
   LineEncoding,
   ChessKnight,
   DeleteDigit,
+  LongestWord,
 ];
