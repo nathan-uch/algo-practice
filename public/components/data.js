@@ -43,6 +43,7 @@ import { ChessKnight } from '../solutions/chess-knight.js';
 import { DeleteDigit } from '../solutions/delete-digit.js';
 import { LongestWord } from '../solutions/longest-word.js';
 import { ValidTime } from '../solutions/valid-time.js';
+import { SumUpNumbers } from '../solutions/sum-up-numbers.js';
 export const AllAlgos = [
     BoxBlurInfo,
     Minesweeper,
@@ -89,4 +90,5 @@ export const AllAlgos = [
     DeleteDigit,
     LongestWord,
     ValidTime,
+    SumUpNumbers,
 ];
