@@ -45,6 +45,7 @@ import { LongestWord } from '../solutions/longest-word.js';
 import { ValidTime } from '../solutions/valid-time.js';
 import { SumUpNumbers } from '../solutions/sum-up-numbers.js';
 import { DifferentSquares } from '../solutions/different-squares.js';
+import { DigitsProduct } from '../solutions/digits-product.js';
 export const AllAlgos = [
     BoxBlurInfo,
     Minesweeper,
@@ -93,4 +94,5 @@ export const AllAlgos = [
     ValidTime,
     SumUpNumbers,
     DifferentSquares,
+    DigitsProduct,
 ];
