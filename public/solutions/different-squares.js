@@ -33,10 +33,3 @@ export const DifferentSquares = new ProblemInfo('Different Squares', 'Medium', '
     }
     return count;
 });
-console.log(DifferentSquares.solution([
-    [1, 2, 1],
-    [2, 2, 2],
-    [2, 2, 2],
-    [1, 2, 3],
-    [2, 2, 1],
-]), 'should be 6');
