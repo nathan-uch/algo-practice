@@ -47,6 +47,7 @@ import { ValidTime } from '../solutions/valid-time.js';
 import { SumUpNumbers } from '../solutions/sum-up-numbers.js';
 import { DifferentSquares } from '../solutions/different-squares.js';
 import { DigitsProduct } from '../solutions/digits-product.js';
+import { FileNaming } from '../solutions/file-naming.js';
 
 export const AllAlgos: ProblemInfo[] = [
   BoxBlurInfo,
@@ -97,4 +98,5 @@ export const AllAlgos: ProblemInfo[] = [
   SumUpNumbers,
   DifferentSquares,
   DigitsProduct,
+  FileNaming,
 ];
