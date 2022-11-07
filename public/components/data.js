@@ -47,6 +47,7 @@ import { SumUpNumbers } from '../solutions/sum-up-numbers.js';
 import { DifferentSquares } from '../solutions/different-squares.js';
 import { DigitsProduct } from '../solutions/digits-product.js';
 import { FileNaming } from '../solutions/file-naming.js';
+import { MessageFromBinaryCode } from '../solutions/message-from-binary-code.js';
 export const AllAlgos = [
     BoxBlurInfo,
     Minesweeper,
@@ -97,4 +98,5 @@ export const AllAlgos = [
     DifferentSquares,
     DigitsProduct,
     FileNaming,
+    MessageFromBinaryCode,
 ];
