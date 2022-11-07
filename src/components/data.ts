@@ -48,6 +48,7 @@ import { SumUpNumbers } from '../solutions/sum-up-numbers.js';
 import { DifferentSquares } from '../solutions/different-squares.js';
 import { DigitsProduct } from '../solutions/digits-product.js';
 import { FileNaming } from '../solutions/file-naming.js';
+import { MessageFromBinaryCode } from '../solutions/message-from-binary-code.js';
 
 export const AllAlgos: ProblemInfo[] = [
   BoxBlurInfo,
@@ -99,4 +100,5 @@ export const AllAlgos: ProblemInfo[] = [
   DifferentSquares,
   DigitsProduct,
   FileNaming,
+  MessageFromBinaryCode,
 ];
