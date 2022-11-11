@@ -41,3 +41,4 @@ export const SumUpNumbers = new ProblemInfo('Sum Up Numbers', 'Medium', 'Oct 28t
     }
     return count;
 });
+//# sourceMappingURL=sum-up-numbers.js.map

@@ -24,3 +24,4 @@ export const GrowingPlant = new ProblemInfo('Growing Plant', 'Easy', 'Sep 13, 20
     }
     return days;
 });
+//# sourceMappingURL=growing-plant.js.map

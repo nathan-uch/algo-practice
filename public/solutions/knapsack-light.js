@@ -21,3 +21,4 @@ export const KnapsackLight = new ProblemInfo('Knapsack Light', 'Easy', 'Sep 14, 
         return v1;
     return v2;
 });
+//# sourceMappingURL=knapsack-light.js.map

@@ -16,3 +16,4 @@ export const LongestDigitsPrefix = new ProblemInfo('Longest Digits Prefix', 'Eas
     }
     return result;
 });
+//# sourceMappingURL=longest-digits-prefix.js.map

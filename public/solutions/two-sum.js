@@ -38,3 +38,4 @@ export const TwoSum = new ProblemInfo('Two Sum', 'Easy', 'Oct 7th, 2022', 'Leet 
     }
     return res;
 });
+//# sourceMappingURL=two-sum.js.map

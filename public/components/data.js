@@ -50,6 +50,7 @@ import { FileNaming } from '../solutions/file-naming.js';
 import { MessageFromBinaryCode } from '../solutions/message-from-binary-code.js';
 import { SpiralNumbers } from '../solutions/spiral-numbers.js';
 import { Sudoku } from '../solutions/sudoku.js';
+import { GroupAnagrams } from '../solutions/group-anagrams.js';
 export const AllAlgos = [
     BoxBlurInfo,
     Minesweeper,
@@ -103,4 +104,6 @@ export const AllAlgos = [
     MessageFromBinaryCode,
     SpiralNumbers,
     Sudoku,
+    GroupAnagrams,
 ];
+//# sourceMappingURL=data.js.map

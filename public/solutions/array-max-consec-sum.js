@@ -26,3 +26,4 @@ export const ArrayMaxConsecutiveSum = new ProblemInfo('Array Max Consecutive Sum
     }
     return highest;
 });
+//# sourceMappingURL=array-max-consec-sum.js.map

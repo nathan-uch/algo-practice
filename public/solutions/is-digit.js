@@ -5,3 +5,4 @@ export const IsDigit = new ProblemInfo('Is Digit', 'Easy', 'Oct 8th, 2022', 'Cod
         return false;
     return true;
 });
+//# sourceMappingURL=is-digit.js.map

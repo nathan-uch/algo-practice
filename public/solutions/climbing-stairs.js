@@ -40,3 +40,4 @@ export const ClimbingStairs = new ProblemInfo('Climbing Stairs', 'Easy', 'Sep 26
     }
     return next;
 });
+//# sourceMappingURL=climbing-stairs.js.map

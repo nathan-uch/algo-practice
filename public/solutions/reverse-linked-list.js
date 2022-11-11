@@ -30,3 +30,4 @@ export const ReverseLinkedList = new ProblemInfo('Reverse Linked List', 'Easy', 
     }
     return prev;
 });
+//# sourceMappingURL=reverse-linked-list.js.map

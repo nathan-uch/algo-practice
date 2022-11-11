@@ -59,3 +59,4 @@ export default function CreateRow(info) {
     }
     $tableBody.appendChild($row);
 }
+//# sourceMappingURL=create-row.js.map

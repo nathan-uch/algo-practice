@@ -100,3 +100,4 @@ export const SpiralNumbers = new ProblemInfo('Spiral Numbers', 'Medium', 'Nov 8t
     };
     return fillNumbers(number, createMatrix(number));
 });
+//# sourceMappingURL=spiral-numbers.js.map

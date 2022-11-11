@@ -12,3 +12,4 @@ export const EvenDigitsOnly = new ProblemInfo('Even Digits Only', 'Easy', 'Sep 1
     }
     return true;
 });
+//# sourceMappingURL=even-digits-only.js.map

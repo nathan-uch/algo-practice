@@ -27,3 +27,4 @@ export const ElectionsWinnders = new ProblemInfo('Election Winners', 'Medium', '
         return repeats;
     return res;
 });
+//# sourceMappingURL=election-winners.js.map

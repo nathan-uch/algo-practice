@@ -37,3 +37,4 @@ export const BuildPalindrome = new ProblemInfo('Build Palindrome', 'Medium', 'Se
     }
     return addBack;
 });
+//# sourceMappingURL=build-palindrome.js.map

@@ -45,3 +45,4 @@ export const DigitsProduct = new ProblemInfo('Digits Product', 'Medium', 'Nov 3r
         return -1;
     return result;
 });
+//# sourceMappingURL=digits-product.js.map

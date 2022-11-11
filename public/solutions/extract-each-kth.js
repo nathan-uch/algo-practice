@@ -14,3 +14,4 @@ export const ExtractEachKth = new ProblemInfo('Extract Each Kth', 'Easy', 'Sep 9
     }
     return result;
 });
+//# sourceMappingURL=extract-each-kth.js.map

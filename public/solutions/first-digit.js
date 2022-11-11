@@ -16,3 +16,4 @@ export const FirstDigit = new ProblemInfo('First Digit', 'Easy', 'Sep 10, 2022',
     }
     return result.toString();
 });
+//# sourceMappingURL=first-digit.js.map

@@ -10,3 +10,4 @@ export const CircleOfNumbers = new ProblemInfo('Circle of Numbers', 'Easy', 'Sep
     }
     return Math.floor(result);
 });
+//# sourceMappingURL=circle-of-numbers.js.map

@@ -71,3 +71,4 @@ export const IsBeautifulString = new ProblemInfo('Is Beautiful String', 'Medium'
     }
     return result;
 });
+//# sourceMappingURL=is-beautiful-string.js.map

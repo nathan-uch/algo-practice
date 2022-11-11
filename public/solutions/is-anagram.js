@@ -32,3 +32,4 @@ export const IsAnagram = new ProblemInfo('Is Anagram', 'Easy', 'Sep 6, 2022', 'L
     }
     return true;
 });
+//# sourceMappingURL=is-anagram.js.map

@@ -23,3 +23,4 @@ export const DeleteDigit = new ProblemInfo('Delete Digit', 'Medium', 'Oct 25th, 
     }
     return largest;
 });
+//# sourceMappingURL=delete-digit.js.map

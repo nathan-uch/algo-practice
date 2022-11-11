@@ -20,3 +20,4 @@ export const FindEmailDomain = new ProblemInfo('Fiund Email Domain', 'Medium', '
     const result = r.reverse().join('');
     return result;
 });
+//# sourceMappingURL=find-email-domain.js.map

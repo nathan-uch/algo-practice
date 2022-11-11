@@ -17,3 +17,4 @@ export const DepositProfit = new ProblemInfo('Deposit Profit', 'Medium', 'Sep 3,
     }
     return count;
 });
+//# sourceMappingURL=deposit-profit.js.map

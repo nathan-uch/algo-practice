@@ -19,3 +19,4 @@ export const BishopAndPawn = new ProblemInfo('Bishop and Pawn', 'Easy', 'Sep 17,
         return true;
     return false;
 });
+//# sourceMappingURL=bishop-and-pawn.js.map

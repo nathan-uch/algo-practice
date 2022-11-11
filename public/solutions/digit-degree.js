@@ -27,3 +27,4 @@ export const DigitDegree = new ProblemInfo('Digit Degree', 'Medium', 'Sep 16, 20
     };
     return getSum(n, 0);
 });
+//# sourceMappingURL=digit-degree.js.map

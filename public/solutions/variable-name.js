@@ -34,3 +34,4 @@ export const VariableName = new ProblemInfo('Variable Name', 'Easy', 'Sep 1, 202
         return false;
     return true;
 });
+//# sourceMappingURL=variable-name.js.map

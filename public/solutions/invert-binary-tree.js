@@ -31,3 +31,4 @@ export const InvertBinaryTree = new ProblemInfo('Invert Binary Tree', 'Easy', 'S
     }
     return root;
 });
+//# sourceMappingURL=invert-binary-tree.js.map

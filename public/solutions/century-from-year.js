@@ -13,3 +13,4 @@ export const CenturyFromYear = new ProblemInfo('Century from Year', 'Easy', 'Aug
         return Math.floor(century) + 1;
     }
 });
+//# sourceMappingURL=century-from-year.js.map

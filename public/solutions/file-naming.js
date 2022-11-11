@@ -41,3 +41,4 @@ export const FileNaming = new ProblemInfo('File Naming', 'Medium', 'Nov 5th, 202
     }
     return result;
 });
+//# sourceMappingURL=file-naming.js.map

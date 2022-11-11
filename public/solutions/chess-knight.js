@@ -40,3 +40,4 @@ export const ChessKnight = new ProblemInfo('Chess Knight', 'Medium', 'Oct 24th, 
     }
     return count;
 });
+//# sourceMappingURL=chess-knight.js.map

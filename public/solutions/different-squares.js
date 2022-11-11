@@ -33,3 +33,4 @@ export const DifferentSquares = new ProblemInfo('Different Squares', 'Medium', '
     }
     return count;
 });
+//# sourceMappingURL=different-squares.js.map

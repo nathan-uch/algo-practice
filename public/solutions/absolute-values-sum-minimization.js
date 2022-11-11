@@ -39,3 +39,4 @@ export const AbsoluteValuesSumMinimization = new ProblemInfo('Absolute Values Su
     }
     return result;
 });
+//# sourceMappingURL=absolute-values-sum-minimization.js.map

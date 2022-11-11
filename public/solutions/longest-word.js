@@ -62,3 +62,4 @@ export const LongestWord = new ProblemInfo('Longest Word', 'Easy', 'Oct 25th, 20
     }
     return longestWord;
 });
+//# sourceMappingURL=longest-word.js.map

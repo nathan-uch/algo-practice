@@ -47,3 +47,4 @@ import { AllAlgos } from "./components/data.js";
     const $totalNotCompleted = document.getElementById('total-not-completed');
     $totalNotCompleted.textContent = (Number(enot) + Number(mnot) + Number(hnot)).toString();
 }());
+//# sourceMappingURL=index.js.map

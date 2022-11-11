@@ -16,3 +16,4 @@ export default class ProblemInfo {
         this.otherSolutionType = otherSolutionType;
     }
 }
+//# sourceMappingURL=info-class.js.map

@@ -31,3 +31,4 @@ export const ChessBoardCellColor = new ProblemInfo('Chess Board Cell Color', 'Ea
         return true;
     return false;
 });
+//# sourceMappingURL=chess-board-cell-color.js.map

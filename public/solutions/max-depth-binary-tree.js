@@ -18,3 +18,4 @@ export const MaxDepthBinaryTree = new ProblemInfo('Maximum Depth of Binary Tree'
         return 0;
     return depthFS(root);
 });
+//# sourceMappingURL=max-depth-binary-tree.js.map

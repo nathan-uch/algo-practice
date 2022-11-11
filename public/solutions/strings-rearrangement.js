@@ -57,3 +57,4 @@ export const StringsRearrangement = new ProblemInfo('Strings Rearrangement', 'Me
     }
     return recur(arr);
 });
+//# sourceMappingURL=strings-rearrangement.js.map
