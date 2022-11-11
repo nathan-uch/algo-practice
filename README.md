@@ -1,2 +1,2 @@
 # algo-practice
-Algorithm practice exercises.
+Algorithm & data structure exercises.
