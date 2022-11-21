@@ -52,6 +52,10 @@ import { MessageFromBinaryCode } from '../solutions/message-from-binary-code.js'
 import { SpiralNumbers } from '../solutions/spiral-numbers.js';
 import { Sudoku } from '../solutions/sudoku.js';
 import { GroupAnagrams } from '../solutions/group-anagrams.js';
+import { Candies } from '../solutions/candies.js';
+import { SeatsInTheater } from '../solutions/seats-in-theater.js';
+import { LateRide } from '../solutions/late-ride.js';
+import { FirstDuplicate } from '../solutions/first-duplicate.js';
 
 export const AllAlgos: ProblemInfo[] = [
   BoxBlurInfo,
@@ -107,4 +111,8 @@ export const AllAlgos: ProblemInfo[] = [
   SpiralNumbers,
   Sudoku,
   GroupAnagrams,
+  Candies,
+  SeatsInTheater,
+  LateRide,
+  FirstDuplicate,
 ];
