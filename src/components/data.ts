@@ -56,6 +56,7 @@ import { Candies } from '../solutions/candies.js';
 import { SeatsInTheater } from '../solutions/seats-in-theater.js';
 import { LateRide } from '../solutions/late-ride.js';
 import { FirstDuplicate } from '../solutions/first-duplicate.js';
+import { FirstNotRepeatingChar } from '../solutions/first-not-repeating-char.js';
 
 export const AllAlgos: ProblemInfo[] = [
   BoxBlurInfo,
@@ -115,4 +116,5 @@ export const AllAlgos: ProblemInfo[] = [
   SeatsInTheater,
   LateRide,
   FirstDuplicate,
+  FirstNotRepeatingChar,
 ];
