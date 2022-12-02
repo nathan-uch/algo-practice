@@ -58,6 +58,7 @@ import { LateRide } from '../solutions/late-ride.js';
 import { FirstDuplicate } from '../solutions/first-duplicate.js';
 import { FirstNotRepeatingChar } from '../solutions/first-not-repeating-char.js';
 import { HouseRobber } from '../solutions/house-robber.js';
+import { PhoneCall } from '../solutions/phone-call.js';
 
 export const AllAlgos: ProblemInfo[] = [
   BoxBlurInfo,
@@ -119,4 +120,5 @@ export const AllAlgos: ProblemInfo[] = [
   FirstDuplicate,
   FirstNotRepeatingChar,
   HouseRobber,
+  PhoneCall,
 ];
