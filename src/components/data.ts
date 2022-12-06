@@ -59,6 +59,7 @@ import { FirstDuplicate } from '../solutions/first-duplicate.js';
 import { FirstNotRepeatingChar } from '../solutions/first-not-repeating-char.js';
 import { HouseRobber } from '../solutions/house-robber.js';
 import { PhoneCall } from '../solutions/phone-call.js';
+import { LastStoneWeight } from '../solutions/last-stone-weight.js';
 
 export const AllAlgos: ProblemInfo[] = [
   BoxBlurInfo,
@@ -121,4 +122,5 @@ export const AllAlgos: ProblemInfo[] = [
   FirstNotRepeatingChar,
   HouseRobber,
   PhoneCall,
+  LastStoneWeight,
 ];
