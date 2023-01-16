@@ -60,6 +60,7 @@ import { FirstNotRepeatingChar } from '../solutions/first-not-repeating-char.js'
 import { HouseRobber } from '../solutions/house-robber.js';
 import { PhoneCall } from '../solutions/phone-call.js';
 import { LastStoneWeight } from '../solutions/last-stone-weight.js';
+import { IsInfiniteProcess } from '../solutions/is-infinite-process.js';
 
 export const AllAlgos: ProblemInfo[] = [
   BoxBlurInfo,
@@ -123,4 +124,5 @@ export const AllAlgos: ProblemInfo[] = [
   HouseRobber,
   PhoneCall,
   LastStoneWeight,
+  IsInfiniteProcess,
 ];
